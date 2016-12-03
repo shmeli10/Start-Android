@@ -1,0 +1,104 @@
+<resources>
+
+    <string name="app_name">Start Android</string>
+
+    <string name="title_text">Примеры:</string>
+
+    <string-array name="examples">
+        <item>Пример 1. Basic Views.</item>
+        <item>Пример 2. Смена ориентации экрана.</item>
+        <item>Пример 3. Виды Layouts.</item>
+        <item>Пример 4. Layout properties.</item>
+        <item>Пример 5. ViewById.</item>
+        <item>Пример 6. OnClick.</item>
+        <item>Пример 7. Папка res/values.</item>
+        <item>Пример 8. Создание простого меню.</item>
+        <item>Пример 9. Меню, группы, порядок. MenuInflater и xml-меню.</item>
+        <item>Пример 10. Контекстное меню.</item>
+        <item>Пример 11. Программное создание экрана. LayoutParams.</item>
+        <item>Пример 12. Создание View-компонент в рабочем приложении.</item>
+        <item>Пример 13. Меняем layoutParams в рабочем приложении.</item>
+        <item>Пример 14. Пишем простой калькулятор.</item>
+        <item>Пример 15. Анимация.</item>
+        <item>Пример 16. Создание и вызов Activity.</item>
+        <item>Пример 17. Activity Lifecycle. В каких состояниях может быть Activity.</item>
+        <item>Пример 18. Activity Lifecycle, пример смены состояний с двумя Activity.</item>
+        <item>Пример 19. Intent Filter - практика.</item>
+        <item>Пример 20. Extras - передаем данные с помощью Intent.</item>
+    </string-array>
+
+    <string name="screen_orientation_title">Смена ориентации экрана</string>
+    <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
+    <string name="vertical_screen_text">Вертикальная ориентации экрана</string>
+    <string name="lesson4_layout_properties_text">Layout properties</string>
+
+    <string name="layout_types_title">Виды Layouts</string>
+    <string name="linear_layout_text">Linear Layout</string>
+    <string name="table_layout_text">Table Layout</string>
+    <string name="relative_layout_text">Relative Layout</string>
+    <string name="absolute_layout_text">Absolute Layout</string>
+
+    <string name="view_by_id_title">Работаем с элементами экрана из кода</string>
+    <string name="on_click_title">Обработчики событий на примере Button</string>
+
+    <string name="lesson6_btn_ok_clicked_text">Нажата кнопка ОК</string>
+    <string name="lesson6_btn_cancel_clicked_text">Нажата кнопка Cancel</string>
+
+    <string name="folder_res_values_title">Папка res/values</string>
+    <string name="lesson7_top_text_view_text">Верхний текст</string>
+    <string name="lesson7_top_btn_text">Верхняя кнопка</string>
+    <string name="lesson7_bottom_text_view_text">Нижний текст</string>
+    <string name="lesson7_bottom_btn_text">Нижняя кнопка</string>
+
+    <string name="lesson8_simple_menu_title">Создание простого меню</string>
+    <string name="lesson8_click_on_menu_text">Нажмите на устройстве кнопку меню.</string>
+
+    <string name="lesson9_advanced_menu_title">Меню, группы, порядок. MenuInflater и xml-меню</string>
+    <string name="lesson9_advanced_menu_text">Расширенное меню</string>
+
+    <string name="lesson10_context_menu_title">Контекстное меню</string>
+    <string name="lesson10_text_color_text">Text color</string>
+    <string name="lesson10_text_size_text">Text size</string>
+
+    <string name="lesson11_dynamic_layout_title">Программное создание экрана. LayoutParams</string>
+
+    <string name="lesson12_dynamic_layout2_title">Создание View-компонент в рабочем приложении</string>
+
+    <string name="lesson13_dynamic_layout3_title">Меняем layoutParams в рабочем приложении</string>
+
+    <string name="lesson14_simple_calculator_title">Пишем простой калькулятор</string>
+
+    <string name="lesson15_animation_title">Анимация</string>
+
+    <string name="lesson16_two_activities_title">Создание и вызов Activity</string>
+    <string name="lesson16_open_second_activity_text">Go to Activity Two</string>
+
+    <string name="lesson17_activity_lifecycle_title">Activity Lifecycle. В каких состояниях может быть Activity</string>
+
+    <string name="lesson18_two_activities_lifecycle_title">Activity Lifecycle, пример смены состояний с двумя Activity</string>
+
+    <string name="lesson19_intent_filter_title">Intent Filter - практика</string>
+    <string name="lesson19_show_time_text">Show time</string>
+    <string name="lesson19_show_date_text">Show date</string>
+    <string name="lesson19_show_time_or_date_text">Show time/date</string>
+
+    <string name="lesson20_extras_title">Extras - передаем данные с помощью Intent</string>
+    <string name="lesson20_input_your_name_text">Input your Name</string>
+
+    <string name="second_activity_text">Second Activity</string>
+
+    <string name="hello_text">Hello World!</string>
+
+    <string name="left_text">Left</string>
+    <string name="center_text">Center</string>
+    <string name="right_text">Right</string>
+
+    <string name="create_text">Create</string>
+    <string name="clear_text">Clear</string>
+
+    <string name="first_name_text">First Name</string>
+    <string name="last_name_text">Last Name</string>
+
+    <string name="submit_text">Submit</string>
+
+</resources>

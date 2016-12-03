@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.os1.start_android_education">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Main_Activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Lesson1_BasicViews"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lesson2_ScreenOrientation" />
+        <activity
+            android:name=".Lesson3_Layouts" />
+        <activity
+            android:name=".Lesson3_LinearLayout"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Lesson3_TableLayout"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Lesson3_RelativeLayout"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson3_AbsoluteLayout"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson4_LayoutProperties"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson4_LayoutWeight"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson4_LayoutGravity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Lesson4_LayoutMargin"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Lesson5_ViewById"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson6_OnClickButtons"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson7_ResValuesFolder"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson8_SimpleMenu"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson9_AdvancedMenu"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson10_ContextMenu"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson11_DynamicLayout"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson12_DynamicLayout2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson13_DynamicLayout3"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson14_SimpleCalculator"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson15_SimpleAnimation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson16_TwoActivities"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson16_SecondActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson17_ActivityStates"/>
+        <activity
+            android:name=".Lesson18_TwoActivityStates"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson18_SecondActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson19_IntentFilter"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson19_ShowTime"
+            android:screenOrientation="portrait" >
+
+            <intent-filter>
+
+                <action android:name="com.example.os1.start_android_education.action.showtime" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".Lesson19_ShowDate"
+            android:label="Date basic"
+            android:screenOrientation="portrait" >
+
+            <intent-filter>
+
+                <action android:name="com.example.os1.start_android_education.action.showdate" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".Lesson19_ShowDateExtended"
+            android:label="Date extended"
+            android:screenOrientation="portrait" >
+
+            <intent-filter>
+
+                <action android:name="com.example.os1.start_android_education.action.showdate" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".Lesson19_ShowTimeOrDate"
+            android:label="Time/Date info"
+            android:screenOrientation="portrait" >
+
+            <intent-filter>
+
+                <action android:name="com.example.os1.start_android_education.action.showtime" />
+                <action android:name="com.example.os1.start_android_education.action.showdate" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".Lesson20_IntentExtras"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson20_ViewActivity"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>
