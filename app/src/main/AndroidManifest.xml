@@ -157,6 +157,21 @@
         <activity
             android:name=".Lesson20_ViewActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson21_SimpleActivityResult"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson21_NameActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson22_ActivityResult"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson22_ColorActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson22_AlignActivity"
+            android:screenOrientation="portrait"/>
 
     </application>
 

@@ -25,7 +25,35 @@
         <item>Пример 18. Activity Lifecycle, пример смены состояний с двумя Activity.</item>
         <item>Пример 19. Intent Filter - практика.</item>
         <item>Пример 20. Extras - передаем данные с помощью Intent.</item>
+        <item>Пример 21. Вызываем Activity и получаем результат. Метод startActivityForResult.</item>
+        <item>Пример 22. Подробнее про onActivityResult. Зачем нужны requestCode и resultCode.</item>
     </string-array>
+
+    <string name="second_activity_text">Second Activity</string>
+
+    <string name="hello_text">Hello World!</string>
+
+    <string name="left_text">Left</string>
+    <string name="center_text">Center</string>
+    <string name="right_text">Right</string>
+
+    <string name="create_text">Create</string>
+    <string name="clear_text">Clear</string>
+
+    <string name="first_name_text">First Name</string>
+    <string name="last_name_text">Last Name</string>
+
+    <string name="name_text">Name</string>
+    <string name="ok_text">Ok</string>
+
+    <string name="submit_text">Submit</string>
+
+    <string name="color_text">Color</string>
+    <string name="alignment_text">Alignment</string>
+
+    <string name="red_text">Red</string>
+    <string name="green_text">Green</string>
+    <string name="blue_text">Blue</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -85,20 +113,10 @@
     <string name="lesson20_extras_title">Extras - передаем данные с помощью Intent</string>
     <string name="lesson20_input_your_name_text">Input your Name</string>
 
-    <string name="second_activity_text">Second Activity</string>
+    <string name="lesson21_start_activity_for_result_title">Метод startActivityForResult</string>
+    <string name="lesson21_input_name_text">Input name</string>
+    <string name="lesson21_your_name_is_text">Your name is:</string>
 
-    <string name="hello_text">Hello World!</string>
-
-    <string name="left_text">Left</string>
-    <string name="center_text">Center</string>
-    <string name="right_text">Right</string>
-
-    <string name="create_text">Create</string>
-    <string name="clear_text">Clear</string>
-
-    <string name="first_name_text">First Name</string>
-    <string name="last_name_text">Last Name</string>
-
-    <string name="submit_text">Submit</string>
+    <string name="lesson22_on_activity_result_title">Подробнее про onActivityResult</string>
 
 </resources>
