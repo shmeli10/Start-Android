@@ -27,6 +27,7 @@
         <item>Пример 20. Extras - передаем данные с помощью Intent.</item>
         <item>Пример 21. Вызываем Activity и получаем результат. Метод startActivityForResult.</item>
         <item>Пример 22. Подробнее про onActivityResult. Зачем нужны requestCode и resultCode.</item>
+        <item>Пример 23. Зачем у Intent есть атрибут data. Что такое Uri. Вызываем системные приложения.</item>
     </string-array>
 
     <string name="second_activity_text">Second Activity</string>
@@ -54,6 +55,10 @@
     <string name="red_text">Red</string>
     <string name="green_text">Green</string>
     <string name="blue_text">Blue</string>
+
+    <string name="web_text">Web</string>
+    <string name="map_text">Map</string>
+    <string name="call_text">Call</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -118,5 +123,7 @@
     <string name="lesson21_your_name_is_text">Your name is:</string>
 
     <string name="lesson22_on_activity_result_title">Подробнее про onActivityResult</string>
+
+    <string name="lesson23_uri_title">URI</string>
 
 </resources>

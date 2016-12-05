@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.os1.start_android_education">
 
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/app_logo"
@@ -171,6 +174,9 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name=".Lesson22_AlignActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson23_SimpleIntents"
             android:screenOrientation="portrait"/>
 
     </application>
