@@ -28,6 +28,7 @@
         <item>Пример 21. Вызываем Activity и получаем результат. Метод startActivityForResult.</item>
         <item>Пример 22. Подробнее про onActivityResult. Зачем нужны requestCode и resultCode.</item>
         <item>Пример 23. Зачем у Intent есть атрибут data. Что такое Uri. Вызываем системные приложения.</item>
+        <item>Пример 24. Пишем простой браузер.</item>
     </string-array>
 
     <string name="second_activity_text">Second Activity</string>
@@ -125,5 +126,7 @@
     <string name="lesson22_on_activity_result_title">Подробнее про onActivityResult</string>
 
     <string name="lesson23_uri_title">URI</string>
+
+    <string name="lesson24_simple_browser_title">Пишем простой браузер</string>
 
 </resources>

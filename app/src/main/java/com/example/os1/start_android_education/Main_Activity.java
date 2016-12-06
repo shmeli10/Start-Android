@@ -86,6 +86,8 @@ public class Main_Activity extends Activity {
                      break;
             case 22: intent = new Intent(Main_Activity.this,Lesson23_SimpleIntents.class);
                      break;
+            case 23: intent = new Intent(Main_Activity.this,Lesson24_SimpleBrowser.class);
+                     break;
         }
 
         if(intent != null)

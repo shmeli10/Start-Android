@@ -178,6 +178,23 @@
         <activity
             android:name=".Lesson23_SimpleIntents"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson24_SimpleBrowser"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson24_BrowserActivity"
+            android:label="MySimpleBrowser"
+            android:screenOrientation="portrait" >
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="http" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
 
     </application>
 
