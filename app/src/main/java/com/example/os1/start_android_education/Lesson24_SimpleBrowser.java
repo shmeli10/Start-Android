@@ -34,7 +34,7 @@ public class Lesson24_SimpleBrowser extends     Activity
         mWebBTN = (Button) findViewById(R.id.Lesson24_Web_BTN);
         mWebBTN.setOnClickListener(this);
 
-//        findViewById(R.id.btnWeb)).setOnClickListener(new OnClickListener() {
+//        findViewById(R.id.Lesson24_Web_BTN).setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
 //                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ya.ru")));

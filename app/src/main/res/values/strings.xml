@@ -29,6 +29,7 @@
         <item>Пример 22. Подробнее про onActivityResult. Зачем нужны requestCode и resultCode.</item>
         <item>Пример 23. Зачем у Intent есть атрибут data. Что такое Uri. Вызываем системные приложения.</item>
         <item>Пример 24. Пишем простой браузер.</item>
+        <item>Пример 25. Хранение данных. Preferences.</item>
     </string-array>
 
     <string name="second_activity_text">Second Activity</string>
@@ -60,6 +61,9 @@
     <string name="web_text">Web</string>
     <string name="map_text">Map</string>
     <string name="call_text">Call</string>
+
+    <string name="save_text">Save</string>
+    <string name="load_text">Load</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -128,5 +132,7 @@
     <string name="lesson23_uri_title">URI</string>
 
     <string name="lesson24_simple_browser_title">Пишем простой браузер</string>
+
+    <string name="lesson25_preferences_title">Preferences</string>
 
 </resources>

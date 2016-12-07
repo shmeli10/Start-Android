@@ -195,6 +195,9 @@
             </intent-filter>
 
         </activity>
+        <activity
+            android:name=".Lesson25_SharedPreferences"
+            android:screenOrientation="portrait"/>
 
     </application>
 
