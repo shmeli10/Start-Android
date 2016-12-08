@@ -201,6 +201,9 @@
         <activity
             android:name=".Lesson26_SimpleSQLite"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson27_SQLiteQuery"
+            android:screenOrientation="portrait"/>
 
     </application>
 

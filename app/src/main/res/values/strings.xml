@@ -31,6 +31,7 @@
         <item>Пример 24. Пишем простой браузер.</item>
         <item>Пример 25. Хранение данных. Preferences.</item>
         <item>Пример 26. Хранение данных. SQLite.</item>
+        <item>Пример 27. SQLite. Подробнее про метод query. Условие, сортировка, группировка.</item>
     </string-array>
 
     <string name="second_activity_text">Second Activity</string>
@@ -146,5 +147,17 @@
     <string name="lesson25_preferences_title">Preferences</string>
 
     <string name="lesson26_sqlite_title">SQLite</string>
+
+    <string name="lesson27_sqlite_query_title">SQLite. Подробнее про метод query...</string>
+    <string name="lesson27_countries_catalog_text">Справочник стран</string>
+    <string name="lesson27_all_records_text">Все записи</string>
+    <string name="lesson27_function_text">Функция</string>
+    <string name="lesson27_population_text">Население</string>
+    <string name="lesson27_population_greater_then_text">Население ></string>
+    <string name="lesson27_population_by_region_text">Население по региону</string>
+    <string name="lesson27_population_by_region_greater_then_text">Население по региону ></string>
+    <string name="lesson27_sorting_text">Сортировка</string>
+    <string name="lesson27_country_name_text">Наименование</string>
+    <string name="lesson27_region_text">Регион</string>
 
 </resources>
