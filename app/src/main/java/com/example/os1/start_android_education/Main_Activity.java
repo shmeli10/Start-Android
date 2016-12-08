@@ -90,6 +90,8 @@ public class Main_Activity extends Activity {
                      break;
             case 24: intent = new Intent(Main_Activity.this,Lesson25_SharedPreferences.class);
                      break;
+            case 25: intent = new Intent(Main_Activity.this,Lesson26_SimpleSQLite.class);
+                     break;
         }
 
         if(intent != null)

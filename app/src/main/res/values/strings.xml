@@ -30,6 +30,7 @@
         <item>Пример 23. Зачем у Intent есть атрибут data. Что такое Uri. Вызываем системные приложения.</item>
         <item>Пример 24. Пишем простой браузер.</item>
         <item>Пример 25. Хранение данных. Preferences.</item>
+        <item>Пример 26. Хранение данных. SQLite.</item>
     </string-array>
 
     <string name="second_activity_text">Second Activity</string>
@@ -63,7 +64,16 @@
     <string name="call_text">Call</string>
 
     <string name="save_text">Save</string>
+    <string name="update_text">Update</string>
+    <string name="delete_text">Delete</string>
     <string name="load_text">Load</string>
+
+    <string name="email_text">Email</string>
+
+    <string name="add_text">Add</string>
+    <string name="read_text">Read</string>
+
+    <string name="id_text">ID</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -134,5 +144,7 @@
     <string name="lesson24_simple_browser_title">Пишем простой браузер</string>
 
     <string name="lesson25_preferences_title">Preferences</string>
+
+    <string name="lesson26_sqlite_title">SQLite</string>
 
 </resources>

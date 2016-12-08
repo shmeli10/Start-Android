@@ -198,6 +198,9 @@
         <activity
             android:name=".Lesson25_SharedPreferences"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson26_SimpleSQLite"
+            android:screenOrientation="portrait"/>
 
     </application>
 
