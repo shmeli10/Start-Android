@@ -32,6 +32,8 @@
         <item>Пример 25. Хранение данных. Preferences.</item>
         <item>Пример 26. Хранение данных. SQLite.</item>
         <item>Пример 27. SQLite. Подробнее про метод query. Условие, сортировка, группировка.</item>
+        <item>Пример 28. Запросы из связанных таблиц. INNER JOIN в SQLite. Метод rawQuery.</item>
+        <item>Пример 29. Транзакции в SQLite. Небольшой FAQ по SQLite.</item>
     </string-array>
 
     <string name="second_activity_text">Second Activity</string>
@@ -159,5 +161,10 @@
     <string name="lesson27_sorting_text">Сортировка</string>
     <string name="lesson27_country_name_text">Наименование</string>
     <string name="lesson27_region_text">Регион</string>
+
+    <string name="lesson28_raw_query_title">Запросы из связанных таблиц...</string>
+    <string name="lesson28_data_in_logs_text">Все данные выводятся в лог</string>
+
+    <string name="lesson29_transaction_title">Транзакции в SQLite.</string>
 
 </resources>

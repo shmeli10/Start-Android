@@ -94,6 +94,10 @@ public class Main_Activity extends Activity {
                      break;
             case 26: intent = new Intent(Main_Activity.this,Lesson27_SQLiteQuery.class);
                      break;
+            case 27: intent = new Intent(Main_Activity.this,Lesson28_SQLiteInnerJoin.class);
+                     break;
+            case 28: intent = new Intent(Main_Activity.this,Lesson29_SQLiteTransaction.class);
+                     break;
         }
 
         if(intent != null)

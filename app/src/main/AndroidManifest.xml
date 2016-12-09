@@ -204,6 +204,12 @@
         <activity
             android:name=".Lesson27_SQLiteQuery"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson28_SQLiteInnerJoin"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson29_SQLiteTransaction"
+            android:screenOrientation="portrait"/>
 
     </application>
 
