@@ -210,6 +210,21 @@
         <activity
             android:name=".Lesson29_SQLiteTransaction"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson30_LayoutInflater"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson31_LayoutInflaterList"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson32_SimpleList"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson33_SimpleListChoice"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson34_SimpleListEvents"
+            android:screenOrientation="portrait"/>
 
     </application>
 

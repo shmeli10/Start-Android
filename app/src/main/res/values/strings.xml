@@ -34,6 +34,27 @@
         <item>Пример 27. SQLite. Подробнее про метод query. Условие, сортировка, группировка.</item>
         <item>Пример 28. Запросы из связанных таблиц. INNER JOIN в SQLite. Метод rawQuery.</item>
         <item>Пример 29. Транзакции в SQLite. Небольшой FAQ по SQLite.</item>
+        <item>Пример 30. LayoutInflater. Учимся использовать.</item>
+        <item>Пример 31. Используем LayoutInflater для создания списка.</item>
+        <item>Пример 32. Список - ListView.</item>
+        <item>Пример 33. Одиночный и множественный выбор в ListView.</item>
+        <item>Пример 34. События в ListView.</item>
+    </string-array>
+
+    <string-array name="names">
+        <item>Иван</item>
+        <item>Марья</item>
+        <item>Петр</item>
+        <item>Ольга</item>
+        <item>Антон</item>
+        <item>Даша</item>
+        <item>Борис</item>
+        <item>Костя</item>
+        <item>Игорь</item>
+        <item>Анна</item>
+        <item>Денис</item>
+        <item>Вадим</item>
+        <item>Сергей</item>
     </string-array>
 
     <string name="second_activity_text">Second Activity</string>
@@ -77,6 +98,8 @@
     <string name="read_text">Read</string>
 
     <string name="id_text">ID</string>
+
+    <string name="text_view_text">TextView</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -165,6 +188,21 @@
     <string name="lesson28_raw_query_title">Запросы из связанных таблиц...</string>
     <string name="lesson28_data_in_logs_text">Все данные выводятся в лог</string>
 
-    <string name="lesson29_transaction_title">Транзакции в SQLite.</string>
+    <string name="lesson29_transaction_title">Транзакции в SQLite</string>
+
+    <string name="lesson30_layout_inflater_title">LayoutInflater</string>
+    <string name="lesson30_linear_layout_text">Linear Layout: </string>
+    <string name="lesson30_relative_layout_text">Relative Layout: </string>
+    <string name="lesson30_text_view_text">Layout with TextView</string>
+
+    <string name="lesson31_layout_inflater_list_title">Используем LayoutInflater для создания списка</string>
+    <string name="lesson31_staff_list_text">Staff list</string>
+
+    <string name="lesson32_list_view_title">Список - ListView</string>
+
+    <string name="lesson33_list_view_choice_type_title">Одиночный и множественный выбор в ListView</string>
+    <string name="lesson33_get_checked_items_text">Get checked items</string>
+
+    <string name="lesson34_list_view_events_title">События в ListView</string>
 
 </resources>

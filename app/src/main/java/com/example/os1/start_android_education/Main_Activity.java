@@ -98,6 +98,16 @@ public class Main_Activity extends Activity {
                      break;
             case 28: intent = new Intent(Main_Activity.this,Lesson29_SQLiteTransaction.class);
                      break;
+            case 29: intent = new Intent(Main_Activity.this,Lesson30_LayoutInflater.class);
+                     break;
+            case 30: intent = new Intent(Main_Activity.this,Lesson31_LayoutInflaterList.class);
+                     break;
+            case 31: intent = new Intent(Main_Activity.this,Lesson32_SimpleList.class);
+                     break;
+            case 32: intent = new Intent(Main_Activity.this,Lesson33_SimpleListChoice.class);
+                     break;
+            case 33: intent = new Intent(Main_Activity.this,Lesson34_SimpleListEvents.class);
+                     break;
         }
 
         if(intent != null)
