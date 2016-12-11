@@ -39,6 +39,8 @@
         <item>Пример 32. Список - ListView.</item>
         <item>Пример 33. Одиночный и множественный выбор в ListView.</item>
         <item>Пример 34. События в ListView.</item>
+        <item>Пример 35. Список-дерево ExpandableListView.</item>
+        <item>Пример 36. События ExpandableListView.</item>
     </string-array>
 
     <string-array name="names">
@@ -204,5 +206,9 @@
     <string name="lesson33_get_checked_items_text">Get checked items</string>
 
     <string name="lesson34_list_view_events_title">События в ListView</string>
+
+    <string name="lesson35_expandable_list_view_title">Список-дерево ExpandableListView</string>
+
+    <string name="lesson36_expandable_list_view_events_title">События ExpandableListView</string>
 
 </resources>

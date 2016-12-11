@@ -225,6 +225,12 @@
         <activity
             android:name=".Lesson34_SimpleListEvents"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson35_ExpandableList"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson36_ExpandableListEvents"
+            android:screenOrientation="portrait"/>
 
     </application>
 
