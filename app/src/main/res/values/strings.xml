@@ -41,6 +41,8 @@
         <item>Пример 34. События в ListView.</item>
         <item>Пример 35. Список-дерево ExpandableListView.</item>
         <item>Пример 36. События ExpandableListView.</item>
+        <item>Пример 37. Используем SimpleAdapter.</item>
+        <item>Пример 38. SimpleAdapter. Методы SetViewText и SetViewImage.</item>
     </string-array>
 
     <string-array name="names">
@@ -102,6 +104,7 @@
     <string name="id_text">ID</string>
 
     <string name="text_view_text">TextView</string>
+    <string name="checkbox_text">CheckBox</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -210,5 +213,9 @@
     <string name="lesson35_expandable_list_view_title">Список-дерево ExpandableListView</string>
 
     <string name="lesson36_expandable_list_view_events_title">События ExpandableListView</string>
+
+    <string name="lesson37_simple_adapter_title">Используем SimpleAdapter</string>
+
+    <string name="lesson38_simple_adapter_methods_title">SimpleAdapter. Методы SetViewText и SetViewImage</string>
 
 </resources>

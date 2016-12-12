@@ -112,6 +112,10 @@ public class Main_Activity extends Activity {
                      break;
             case 35: intent = new Intent(Main_Activity.this,Lesson36_ExpandableListEvents.class);
                      break;
+            case 36: intent = new Intent(Main_Activity.this,Lesson37_SimpleAdapter.class);
+                     break;
+            case 37: intent = new Intent(Main_Activity.this,Lesson38_SimpleAdapterCustom1.class);
+                     break;
         }
 
         if(intent != null)

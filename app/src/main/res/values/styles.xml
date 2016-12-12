@@ -48,6 +48,10 @@
         <item name="android:orientation">horizontal</item>
     </style>
 
+    <style name="WWV" parent="@style/WW">
+        <item name="android:orientation">vertical</item>
+    </style>
+
     ////////////////////////////////////////////////////////////////////////////////////////
 
     <style name="Standard_IV">
