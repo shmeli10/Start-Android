@@ -116,6 +116,10 @@ public class Main_Activity extends Activity {
                      break;
             case 37: intent = new Intent(Main_Activity.this,Lesson38_SimpleAdapterCustom1.class);
                      break;
+            case 38: intent = new Intent(Main_Activity.this,Lesson39_SimpleAdapterCustom2.class);
+                     break;
+            case 39: intent = new Intent(Main_Activity.this,Lesson40_SimpleAdapterData.class);
+                     break;
         }
 
         if(intent != null)

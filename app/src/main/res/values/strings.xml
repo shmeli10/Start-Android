@@ -43,6 +43,8 @@
         <item>Пример 36. События ExpandableListView.</item>
         <item>Пример 37. Используем SimpleAdapter.</item>
         <item>Пример 38. SimpleAdapter. Методы SetViewText и SetViewImage.</item>
+        <item>Пример 39. SimpleAdapter. Используем ViewBinder.</item>
+        <item>Пример 40. SimpleAdapter, добавление и удаление записей.</item>
     </string-array>
 
     <string-array name="names">
@@ -217,5 +219,11 @@
     <string name="lesson37_simple_adapter_title">Используем SimpleAdapter</string>
 
     <string name="lesson38_simple_adapter_methods_title">SimpleAdapter. Методы SetViewText и SetViewImage</string>
+
+    <string name="lesson39_view_binder_title">SimpleAdapter. Используем ViewBinder</string>
+
+    <string name="lesson40_simple_adapter_data_title">SimpleAdapter, добавление и удаление записей</string>
+    <string name="lesson40_add_row_text">Добавить запись</string>
+    <string name="lesson40_delete_row_text">Удалить запись</string>
 
 </resources>
