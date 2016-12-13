@@ -45,6 +45,8 @@
         <item>Пример 38. SimpleAdapter. Методы SetViewText и SetViewImage.</item>
         <item>Пример 39. SimpleAdapter. Используем ViewBinder.</item>
         <item>Пример 40. SimpleAdapter, добавление и удаление записей.</item>
+        <item>Пример 41. SimpleCursorAdapter, пример использования.</item>
+        <item>Пример 42. SimpleCursorTreeAdapter, пример использования.</item>
     </string-array>
 
     <string-array name="names">
@@ -225,5 +227,9 @@
     <string name="lesson40_simple_adapter_data_title">SimpleAdapter, добавление и удаление записей</string>
     <string name="lesson40_add_row_text">Добавить запись</string>
     <string name="lesson40_delete_row_text">Удалить запись</string>
+
+    <string name="lesson41_simple_cursor_adapter_title">SimpleCursorAdapter, пример использования</string>
+
+    <string name="lesson42_simple_cursor_tree_adapter_title">SimpleCursorTreeAdapter, пример использования</string>
 
 </resources>

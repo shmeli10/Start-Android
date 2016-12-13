@@ -243,6 +243,12 @@
         <activity
             android:name=".Lesson40_SimpleAdapterData"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson41_SimpleCursorAdapter"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson42_SimpleCursorTreeAdapter"
+            android:screenOrientation="portrait"/>
 
     </application>
 
