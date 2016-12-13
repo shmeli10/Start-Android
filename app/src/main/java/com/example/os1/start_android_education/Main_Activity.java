@@ -124,6 +124,10 @@ public class Main_Activity extends Activity {
                      break;
             case 41: intent = new Intent(Main_Activity.this,Lesson42_SimpleCursorTreeAdapter.class);
                      break;
+            case 42: intent = new Intent(Main_Activity.this,Lesson43_CustomAdapter.class);
+                     break;
+            case 43: intent = new Intent(Main_Activity.this,Lesson44_HeaderFooter.class);
+                     break;
         }
 
         if(intent != null)

@@ -47,6 +47,8 @@
         <item>Пример 40. SimpleAdapter, добавление и удаление записей.</item>
         <item>Пример 41. SimpleCursorAdapter, пример использования.</item>
         <item>Пример 42. SimpleCursorTreeAdapter, пример использования.</item>
+        <item>Пример 43. Кастомизация списка. Создаем свой адаптер.</item>
+        <item>Пример 44. Header и Footer в списках. HeaderViewListAdapter.</item>
     </string-array>
 
     <string-array name="names">
@@ -109,6 +111,8 @@
 
     <string name="text_view_text">TextView</string>
     <string name="checkbox_text">CheckBox</string>
+
+    <string name="box">Корзина</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -231,5 +235,13 @@
     <string name="lesson41_simple_cursor_adapter_title">SimpleCursorAdapter, пример использования</string>
 
     <string name="lesson42_simple_cursor_tree_adapter_title">SimpleCursorTreeAdapter, пример использования</string>
+
+    <string name="lesson43_custom_adapter_title">Кастомизация списка. Создаем свой адаптер</string>
+    <string name="lesson43_products_in_box_text">Товары в корзине:</string>
+
+    <string name="lesson44_header_view_list_adapter_title">Header и Footer в списках. HeaderViewListAdapter</string>
+    <string name="lesson44_header_text">Header</string>
+    <string name="lesson44_footer_text">Footer</string>
+    <string name="lesson44_test_text">Test</string>
 
 </resources>
