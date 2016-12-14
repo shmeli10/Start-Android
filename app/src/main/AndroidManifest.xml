@@ -255,6 +255,18 @@
         <activity
             android:name=".Lesson44_HeaderFooter"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson45_Spinner"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson46_GridView"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson47_TimePickerDialog"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson48_DatePickerDialog"
+            android:screenOrientation="portrait"/>
 
     </application>
 

@@ -49,6 +49,10 @@
         <item>Пример 42. SimpleCursorTreeAdapter, пример использования.</item>
         <item>Пример 43. Кастомизация списка. Создаем свой адаптер.</item>
         <item>Пример 44. Header и Footer в списках. HeaderViewListAdapter.</item>
+        <item>Пример 45. Spinner – выпадающий список.</item>
+        <item>Пример 46. GridView и его атрибуты.</item>
+        <item>Пример 47. Диалоги. TimePickerDialog.</item>
+        <item>Пример 48. Диалоги. DatePickerDialog.</item>
     </string-array>
 
     <string-array name="names">
@@ -243,5 +247,13 @@
     <string name="lesson44_header_text">Header</string>
     <string name="lesson44_footer_text">Footer</string>
     <string name="lesson44_test_text">Test</string>
+
+    <string name="lesson45_spinner_title">Spinner – выпадающий список</string>
+
+    <string name="lesson46_grid_view_title">GridView и его атрибуты</string>
+
+    <string name="lesson47_time_picker_dialog_title">Диалоги. TimePickerDialog</string>
+
+    <string name="lesson48_date_picker_dialog_title">Диалоги. DatePickerDialog</string>
 
 </resources>

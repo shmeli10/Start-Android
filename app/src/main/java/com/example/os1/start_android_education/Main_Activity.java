@@ -128,6 +128,14 @@ public class Main_Activity extends Activity {
                      break;
             case 43: intent = new Intent(Main_Activity.this,Lesson44_HeaderFooter.class);
                      break;
+            case 44: intent = new Intent(Main_Activity.this,Lesson45_Spinner.class);
+                     break;
+            case 45: intent = new Intent(Main_Activity.this,Lesson46_GridView.class);
+                     break;
+            case 46: intent = new Intent(Main_Activity.this,Lesson47_TimePickerDialog.class);
+                     break;
+            case 47: intent = new Intent(Main_Activity.this,Lesson48_DatePickerDialog.class);
+                     break;
         }
 
         if(intent != null)
