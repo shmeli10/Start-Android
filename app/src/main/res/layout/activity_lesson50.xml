@@ -7,7 +7,7 @@
         style="@style/Navigation_LL">
 
         <LinearLayout
-            android:id="@+id/Lesson43_ArrowBackWrapLL"
+            android:id="@+id/Lesson50_ArrowBackWrapLL"
             style="@style/Image_Wrap"
             android:layout_width="70dp">
 
@@ -16,7 +16,7 @@
         </LinearLayout>
         <TextView
             style="@style/Navigation_Title_TV"
-            android:text="@string/lesson43_custom_adapter_title" />
+            android:text="@string/lesson50_on_prepare_dialog_title" />
         <View style="@style/One_Row_Strut"/>
 
     </LinearLayout>
@@ -27,16 +27,10 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin">
 
-        <ListView
-            android:id="@+id/Lesson43_Main_LV"
-            style="@style/MM"
-            android:layout_weight="1" />
         <Button
+            android:id="@+id/Lesson50_BTN"
             style="@style/WW"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="5dp"
-            android:onClick="showResult"
-            android:text="@string/box_text" />
+            android:text="@string/hello_text" />
 
     </LinearLayout>
 

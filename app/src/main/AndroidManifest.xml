@@ -267,6 +267,12 @@
         <activity
             android:name=".Lesson48_DatePickerDialog"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson49_AlertDialogSimple"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson50_AlertDialogPrepare"
+            android:screenOrientation="portrait"/>
 
     </application>
 

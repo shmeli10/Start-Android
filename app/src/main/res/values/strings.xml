@@ -53,6 +53,8 @@
         <item>Пример 46. GridView и его атрибуты.</item>
         <item>Пример 47. Диалоги. TimePickerDialog.</item>
         <item>Пример 48. Диалоги. DatePickerDialog.</item>
+        <item>Пример 49. Диалоги. AlertDialog: Title, Message, Icon, Buttons.</item>
+        <item>Пример 50. Диалоги. AlertDialog.Метод onPrepareDialog.</item>
     </string-array>
 
     <string-array name="names">
@@ -116,7 +118,16 @@
     <string name="text_view_text">TextView</string>
     <string name="checkbox_text">CheckBox</string>
 
-    <string name="box">Корзина</string>
+    <string name="box_text">Корзина</string>
+
+    <string name="exit_text">Выход</string>
+
+    <string name="yes_text">Да</string>
+    <string name="no_text">Нет</string>
+
+    <string name="cancel_text">Отмена</string>
+
+    <string name="current_time_text">Текущее время</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -255,5 +266,11 @@
     <string name="lesson47_time_picker_dialog_title">Диалоги. TimePickerDialog</string>
 
     <string name="lesson48_date_picker_dialog_title">Диалоги. DatePickerDialog</string>
+
+    <string name="lesson49_alert_dialog_title">Диалоги. AlertDialog: Title, Message, Icon, Buttons</string>
+    <string name="lesson49_save_data_text">Сохранить данные?</string>
+    <string name="lesson49_saved_text">Сохранено</string>
+
+    <string name="lesson50_on_prepare_dialog_title">Диалоги. AlertDialog.Метод onPrepareDialog</string>
 
 </resources>
