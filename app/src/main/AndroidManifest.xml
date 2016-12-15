@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.os1.start_android_education">
 
-
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -278,6 +277,12 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name=".Lesson52_AlertDialogItemsSingle"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson53_AlertDialogItemsMulti"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson54_AlertDialogCustom"
             android:screenOrientation="portrait"/>
 
     </application>

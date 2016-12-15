@@ -57,6 +57,8 @@
         <item>Пример 50. Диалоги. AlertDialog.Метод onPrepareDialog.</item>
         <item>Пример 51. Диалоги. AlertDialog. Список.</item>
         <item>Пример 52. Диалоги. AlertDialog. Список с одиночным выбором.</item>
+        <item>Пример 53. Диалоги. AlertDialog. Список с множественным выбором.</item>
+        <item>Пример 54. Диалоги. AlertDialog. Кастомизация.</item>
     </string-array>
 
     <string-array name="names">
@@ -79,20 +81,13 @@
 
     <string name="hello_text">Hello World!</string>
 
+    <string name="box_text">Корзина</string>
+
     <string name="left_text">Left</string>
     <string name="center_text">Center</string>
     <string name="right_text">Right</string>
 
-    <string name="create_text">Create</string>
-    <string name="clear_text">Clear</string>
-
-    <string name="first_name_text">First Name</string>
-    <string name="last_name_text">Last Name</string>
-
-    <string name="name_text">Name</string>
     <string name="ok_text">Ok</string>
-
-    <string name="submit_text">Submit</string>
 
     <string name="color_text">Color</string>
     <string name="alignment_text">Alignment</string>
@@ -105,17 +100,18 @@
     <string name="map_text">Map</string>
     <string name="call_text">Call</string>
 
-    <string name="save_text">Save</string>
-    <string name="update_text">Update</string>
-    <string name="delete_text">Delete</string>
-    <string name="load_text">Load</string>
-
+    <string name="id_text">ID</string>
+    <string name="first_name_text">First Name</string>
+    <string name="last_name_text">Last Name</string>
+    <string name="name_text">Name</string>
     <string name="email_text">Email</string>
 
-    <string name="add_text">Add</string>
-    <string name="read_text">Read</string>
+    <string name="yes_text">Да</string>
+    <string name="no_text">Нет</string>
 
-    <string name="id_text">ID</string>
+    <string name="exit_text">Выход</string>
+    <string name="cancel_text">Отмена</string>
+    <string name="submit_text">Submit</string>
 
     <string name="text_view_text">TextView</string>
     <string name="checkbox_text">CheckBox</string>
@@ -124,14 +120,19 @@
     <string name="adapter_text">Adapter</string>
     <string name="cursor_text">Cursor</string>
 
-    <string name="box_text">Корзина</string>
+    <string name="add_text">Add</string>
+    <string name="read_text">Read</string>
 
-    <string name="exit_text">Выход</string>
+    <string name="save_text">Save</string>
+    <string name="update_text">Update</string>
+    <string name="delete_text">Delete</string>
+    <string name="load_text">Load</string>
 
-    <string name="yes_text">Да</string>
-    <string name="no_text">Нет</string>
+    <string name="add_text_ru">Добавить</string>
+    <string name="delete_text_ru">Удалить</string>
 
-    <string name="cancel_text">Отмена</string>
+    <string name="create_text">Create</string>
+    <string name="clear_text">Clear</string>
 
     <string name="current_time_text">Текущее время</string>
 
@@ -282,5 +283,9 @@
     <string name="lesson51_list_in_dialog_title">Диалоги. AlertDialog. Список</string>
 
     <string name="lesson52_list_in_dialog_with_single_choice_title">Диалоги. AlertDialog. Список с одиночным выбором</string>
+
+    <string name="lesson53_list_in_dialog_with_multiple_choice_title">Диалоги. AlertDialog. Список с множественным выбором</string>
+
+    <string name="lesson54_alert_dialog_custom_title">Диалоги. AlertDialog. Кастомизация</string>
 
 </resources>
