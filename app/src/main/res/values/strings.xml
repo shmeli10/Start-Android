@@ -55,6 +55,8 @@
         <item>Пример 48. Диалоги. DatePickerDialog.</item>
         <item>Пример 49. Диалоги. AlertDialog: Title, Message, Icon, Buttons.</item>
         <item>Пример 50. Диалоги. AlertDialog.Метод onPrepareDialog.</item>
+        <item>Пример 51. Диалоги. AlertDialog. Список.</item>
+        <item>Пример 52. Диалоги. AlertDialog. Список с одиночным выбором.</item>
     </string-array>
 
     <string-array name="names">
@@ -117,6 +119,10 @@
 
     <string name="text_view_text">TextView</string>
     <string name="checkbox_text">CheckBox</string>
+
+    <string name="items_text">Items</string>
+    <string name="adapter_text">Adapter</string>
+    <string name="cursor_text">Cursor</string>
 
     <string name="box_text">Корзина</string>
 
@@ -272,5 +278,9 @@
     <string name="lesson49_saved_text">Сохранено</string>
 
     <string name="lesson50_on_prepare_dialog_title">Диалоги. AlertDialog.Метод onPrepareDialog</string>
+
+    <string name="lesson51_list_in_dialog_title">Диалоги. AlertDialog. Список</string>
+
+    <string name="lesson52_list_in_dialog_with_single_choice_title">Диалоги. AlertDialog. Список с одиночным выбором</string>
 
 </resources>

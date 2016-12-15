@@ -273,6 +273,12 @@
         <activity
             android:name=".Lesson50_AlertDialogPrepare"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson51_AlertDialogItems"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson52_AlertDialogItemsSingle"
+            android:screenOrientation="portrait"/>
 
     </application>
 
