@@ -148,6 +148,14 @@ public class Main_Activity extends Activity {
                      break;
             case 53: intent = new Intent(Main_Activity.this,Lesson54_AlertDialogCustom.class);
                      break;
+            case 54: intent = new Intent(Main_Activity.this,Lesson55_AlertDialogOperations.class);
+                     break;
+            case 55: intent = new Intent(Main_Activity.this,Lesson56_ProgressDialog.class);
+                     break;
+            case 56: intent = new Intent(Main_Activity.this,Lesson57_Parcel.class);
+                     break;
+            case 57: intent = new Intent(Main_Activity.this,Lesson58_Parcelable.class);
+                     break;
         }
 
         if(intent != null)

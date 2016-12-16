@@ -59,6 +59,10 @@
         <item>Пример 52. Диалоги. AlertDialog. Список с одиночным выбором.</item>
         <item>Пример 53. Диалоги. AlertDialog. Список с множественным выбором.</item>
         <item>Пример 54. Диалоги. AlertDialog. Кастомизация.</item>
+        <item>Пример 55. Диалоги. Обработчики и операции.</item>
+        <item>Пример 56. Диалоги. ProgressDialog.</item>
+        <item>Пример 57. Немного о Parcel.</item>
+        <item>Пример 58. Передаем Parcelable объекты с помощью Intent.</item>
     </string-array>
 
     <string-array name="names">
@@ -77,6 +81,7 @@
         <item>Сергей</item>
     </string-array>
 
+    <string name="main_activity_text">MainActivity</string>
     <string name="second_activity_text">Second Activity</string>
 
     <string name="hello_text">Hello World!</string>
@@ -135,6 +140,10 @@
     <string name="clear_text">Clear</string>
 
     <string name="current_time_text">Текущее время</string>
+
+    <string name="dialog_text">Диалог</string>
+
+    <string name="send_text">Send</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -208,6 +217,8 @@
 
     <string name="lesson26_sqlite_title">SQLite</string>
 
+    <string name="all_data_in_logs_text">Все данные выводятся в лог</string>
+
     <string name="lesson27_sqlite_query_title">SQLite. Подробнее про метод query...</string>
     <string name="lesson27_countries_catalog_text">Справочник стран</string>
     <string name="lesson27_all_records_text">Все записи</string>
@@ -221,7 +232,6 @@
     <string name="lesson27_region_text">Регион</string>
 
     <string name="lesson28_raw_query_title">Запросы из связанных таблиц...</string>
-    <string name="lesson28_data_in_logs_text">Все данные выводятся в лог</string>
 
     <string name="lesson29_transaction_title">Транзакции в SQLite</string>
 
@@ -287,5 +297,15 @@
     <string name="lesson53_list_in_dialog_with_multiple_choice_title">Диалоги. AlertDialog. Список с множественным выбором</string>
 
     <string name="lesson54_alert_dialog_custom_title">Диалоги. AlertDialog. Кастомизация</string>
+
+    <string name="lesson55_alert_dialog_operations_title">Диалоги. Обработчики и операции</string>
+
+    <string name="lesson56_progress_dialog_title">Диалоги. ProgressDialog</string>
+    <string name="lesson56_progress_dialog_default_text">Обычный</string>
+    <string name="lesson56_progress_dialog_horizontal_text">Горизонтальный</string>
+
+    <string name="lesson57_parcel_title">Немного о Parcel</string>
+
+    <string name="lesson58_parcel_object_send_title">Передаем Parcelable объекты с помощью Intent</string>
 
 </resources>

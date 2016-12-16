@@ -29,7 +29,7 @@
 
         <TextView
             style="@style/MW"
-            android:text="@string/lesson28_data_in_logs_text"/>
+            android:text="@string/all_data_in_logs_text"/>
 
     </LinearLayout>
 

@@ -284,6 +284,21 @@
         <activity
             android:name=".Lesson54_AlertDialogCustom"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson55_AlertDialogOperations"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson56_ProgressDialog"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson57_Parcel"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson58_Parcelable"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson58_SecondActivity"
+            android:screenOrientation="portrait"/>
 
     </application>
 
