@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * Created by OS1 on 19.11.2016.
+ * Created by OS1 on 16.12.2016.
  */
 public class Lesson58_SecondActivity    extends     Activity
                                         implements  View.OnClickListener {

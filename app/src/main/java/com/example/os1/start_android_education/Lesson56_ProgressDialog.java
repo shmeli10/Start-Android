@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 /**
- * Created by OS1 on 15.12.2016.
+ * Created by OS1 on 16.12.2016.
  */
 public class Lesson56_ProgressDialog    extends     Activity
                                         implements  View.OnClickListener {

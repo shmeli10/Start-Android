@@ -63,6 +63,7 @@
         <item>Пример 56. Диалоги. ProgressDialog.</item>
         <item>Пример 57. Немного о Parcel.</item>
         <item>Пример 58. Передаем Parcelable объекты с помощью Intent.</item>
+        <item>Пример 59. onSaveInstanceState. Сохранение данных Activity при повороте экрана.</item>
     </string-array>
 
     <string-array name="names">
@@ -219,6 +220,8 @@
 
     <string name="all_data_in_logs_text">Все данные выводятся в лог</string>
 
+    <string name="count_text">Count</string>
+
     <string name="lesson27_sqlite_query_title">SQLite. Подробнее про метод query...</string>
     <string name="lesson27_countries_catalog_text">Справочник стран</string>
     <string name="lesson27_all_records_text">Все записи</string>
@@ -307,5 +310,7 @@
     <string name="lesson57_parcel_title">Немного о Parcel</string>
 
     <string name="lesson58_parcel_object_send_title">Передаем Parcelable объекты с помощью Intent</string>
+
+    <string name="lesson59_on_save_instance_state_title">onSaveInstanceState. Сохранение данных Activity при повороте экрана</string>
 
 </resources>

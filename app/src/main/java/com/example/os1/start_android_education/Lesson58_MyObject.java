@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import android.util.Log;
 
 /**
- * Created by sostrovschi on 12/16/16.
+ * Created by OS1 on 16.12.2016.
  */
 
 public class Lesson58_MyObject implements Parcelable {

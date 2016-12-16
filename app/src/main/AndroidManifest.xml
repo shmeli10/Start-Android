@@ -299,6 +299,8 @@
         <activity
             android:name=".Lesson58_SecondActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson59_SaveInstanceState" />
 
     </application>
 

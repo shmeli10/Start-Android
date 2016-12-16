@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 /**
- * Created by OS1 on 15.12.2016.
+ * Created by OS1 on 16.12.2016.
  */
 public class Lesson57_Parcel    extends     Activity
                                 implements  View.OnClickListener {

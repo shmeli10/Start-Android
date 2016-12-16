@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
- * Created by OS1 on 15.12.2016.
+ * Created by OS1 on 16.12.2016.
  */
 public class Lesson55_AlertDialogOperations extends     Activity
                                             implements  View.OnClickListener {

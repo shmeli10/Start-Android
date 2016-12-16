@@ -156,6 +156,8 @@ public class Main_Activity extends Activity {
                      break;
             case 57: intent = new Intent(Main_Activity.this,Lesson58_Parcelable.class);
                      break;
+            case 58: intent = new Intent(Main_Activity.this,Lesson59_SaveInstanceState.class);
+                     break;
         }
 
         if(intent != null)
