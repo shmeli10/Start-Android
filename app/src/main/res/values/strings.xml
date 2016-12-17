@@ -64,6 +64,10 @@
         <item>Пример 57. Немного о Parcel.</item>
         <item>Пример 58. Передаем Parcelable объекты с помощью Intent.</item>
         <item>Пример 59. onSaveInstanceState. Сохранение данных Activity при повороте экрана.</item>
+        <item>Пример 60. Preferences как настройки приложения. PreferenceActivity.</item>
+        <item>Пример 61. Preferences. Список, экраны и категории.</item>
+        <item>Пример 62. Preferences. Управляем активностью настроек (setEnabled).</item>
+        <item>Пример 63. Preferences. Программное создание экрана настроек.</item>
     </string-array>
 
     <string-array name="names">
@@ -80,6 +84,18 @@
         <item>Денис</item>
         <item>Вадим</item>
         <item>Сергей</item>
+    </string-array>
+
+    <string-array name="pref_entries">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+
+    <string-array name="pref_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 
     <string name="main_activity_text">MainActivity</string>
@@ -121,6 +137,7 @@
 
     <string name="text_view_text">TextView</string>
     <string name="checkbox_text">CheckBox</string>
+    <string name="list_text">List</string>
 
     <string name="items_text">Items</string>
     <string name="adapter_text">Adapter</string>
@@ -145,6 +162,22 @@
     <string name="dialog_text">Диалог</string>
 
     <string name="send_text">Send</string>
+
+    <string name="notifications_text">Notifications</string>
+
+    <string name="address_text">Address</string>
+
+    <string name="screen_text">Screen</string>
+
+    <string name="category1_text">Category 1</string>
+    <string name="category2_text">Category 2</string>
+
+    <string name="checkbox1_text">CheckBox 1</string>
+    <string name="checkbox2_text">CheckBox 2</string>
+    <string name="checkbox3_text">CheckBox 3</string>
+    <string name="checkbox4_text">CheckBox 4</string>
+    <string name="checkbox5_text">CheckBox 5</string>
+    <string name="checkbox6_text">CheckBox 6</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -312,5 +345,28 @@
     <string name="lesson58_parcel_object_send_title">Передаем Parcelable объекты с помощью Intent</string>
 
     <string name="lesson59_on_save_instance_state_title">onSaveInstanceState. Сохранение данных Activity при повороте экрана</string>
+
+    <string name="lesson60_preference_activity_title">Preferences как настройки приложения. PreferenceActivity</string>
+    <string name="lesson60_enable_notifications_text">Enable notifications</string>
+    <string name="lesson60_address_for_notifications_text">Address for notifications</string>
+
+    <string name="lesson61_preferences_title">Preferences. Список, экраны и категории</string>
+    <string name="lesson61_checkbox_description_text">Description of checkbox</string>
+    <string name="lesson61_list_description_text">Description of list</string>
+    <string name="lesson61_screen_description_text">Description of screen</string>
+    <string name="lesson61_category1_description_text">Description of category 1</string>
+    <string name="lesson61_category2_description_text">Description of category 2</string>
+    <string name="lesson61_checkbox1_description_text">Description of checkbox 1</string>
+    <string name="lesson61_checkbox2_description_text">Description of checkbox 2</string>
+    <string name="lesson61_checkbox3_description_text">Description of checkbox 3</string>
+    <string name="lesson61_checkbox4_description_text">Description of checkbox 4</string>
+    <string name="lesson61_checkbox5_description_text">Description of checkbox 5</string>
+
+    <string name="lesson62_preferences_title">Preferences. Управляем активностью настроек (setEnabled)</string>
+    <string name="lesson62_checkbox1_off_description_text">Description of checkbox 1 off</string>
+    <string name="lesson62_checkbox1_on_description_text">Description of checkbox 1 on</string>
+    <string name="lesson62_checkbox6_description_text">Description of checkbox 6</string>
+
+    <string name="lesson63_preferences_title">Preferences. Программное создание экрана настроек</string>
 
 </resources>

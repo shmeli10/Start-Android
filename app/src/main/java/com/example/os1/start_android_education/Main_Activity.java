@@ -158,6 +158,14 @@ public class Main_Activity extends Activity {
                      break;
             case 58: intent = new Intent(Main_Activity.this,Lesson59_SaveInstanceState.class);
                      break;
+            case 59: intent = new Intent(Main_Activity.this,Lesson60_PreferencesSimple.class);
+                     break;
+            case 60: intent = new Intent(Main_Activity.this,Lesson61_PreferencesSimple2.class);
+                     break;
+            case 61: intent = new Intent(Main_Activity.this,Lesson62_PreferencesEnable.class);
+                     break;
+            case 62: intent = new Intent(Main_Activity.this,Lesson63_PreferencesCode.class);
+                     break;
         }
 
         if(intent != null)

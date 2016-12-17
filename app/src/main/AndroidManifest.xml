@@ -301,6 +301,30 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name=".Lesson59_SaveInstanceState" />
+        <activity
+            android:name=".Lesson60_PreferencesSimple"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson60_PreferencesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson61_PreferencesSimple2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson61_PreferencesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson62_PreferencesEnable"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson62_PreferencesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson63_PreferencesCode"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson63_PreferencesActivity"
+            android:screenOrientation="portrait"/>
 
     </application>
 
