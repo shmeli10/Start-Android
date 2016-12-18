@@ -68,6 +68,11 @@
         <item>Пример 61. Preferences. Список, экраны и категории.</item>
         <item>Пример 62. Preferences. Управляем активностью настроек (setEnabled).</item>
         <item>Пример 63. Preferences. Программное создание экрана настроек.</item>
+        <item>Пример 64. Хранение данных. Работа с файлами.</item>
+        <item>Пример 65. Tab - вкладки. Общий обзор.</item>
+        <item>Пример 66. Tab - вкладки. TabActivity. Activity, как содержимое вкладки.</item>
+        <item>Пример 67. Tab - вкладки. TabContentFactory, ручное создание содержимого вкладки.</item>
+        <item>Пример 68. XmlPullParser. Парсим XML.</item>
     </string-array>
 
     <string-array name="names">
@@ -178,6 +183,19 @@
     <string name="checkbox4_text">CheckBox 4</string>
     <string name="checkbox5_text">CheckBox 5</string>
     <string name="checkbox6_text">CheckBox 6</string>
+
+    <string name="write_file_text">Записать файл</string>
+    <string name="read_file_text">Прочесть файл</string>
+    <string name="write_file_sd_text">Записать файл на SD</string>
+    <string name="read_file_sd_text">Прочесть файл с SD</string>
+
+    <string name="tab1_text">Вкладка 1</string>
+    <string name="tab2_text">Вкладка 2</string>
+    <string name="tab3_text">Вкладка 3</string>
+    <string name="tab_header_text">Свой заголовок</string>
+
+    <string name="activity1_text">Activity 1</string>
+    <string name="activity2_text">Activity 2</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -368,5 +386,17 @@
     <string name="lesson62_checkbox6_description_text">Description of checkbox 6</string>
 
     <string name="lesson63_preferences_title">Preferences. Программное создание экрана настроек</string>
+
+    <string name="lesson64_files_title">Хранение данных. Работа с файлами</string>
+
+    <string name="lesson65_tabs_title">Tab - вкладки. Общий обзор</string>
+
+    <string name="lesson66_tab_activity_title">Tab - вкладки. TabActivity. Activity, как содержимое вкладки</string>
+
+    <string name="lesson67_tab_content_factory_title">Tab - вкладки. TabContentFactory, ручное создание содержимого вкладки</string>
+    <string name="lesson67_made_programmatically_text">Это создано вручную</string>
+    <string name="lesson67_made_by_layout_inflater_text">Это создано с помощью LayoutInflater</string>
+
+    <string name="lesson68_xml_pull_parser_title">XmlPullParser. Парсим XML</string>
 
 </resources>

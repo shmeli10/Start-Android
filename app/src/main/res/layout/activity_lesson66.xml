@@ -7,7 +7,7 @@
         style="@style/Navigation_LL">
 
         <LinearLayout
-            android:id="@+id/Lesson57_ArrowBackWrapLL"
+            android:id="@+id/Lesson66_ArrowBackWrapLL"
             style="@style/Image_Wrap"
             android:layout_width="70dp">
 
@@ -16,7 +16,7 @@
         </LinearLayout>
         <TextView
             style="@style/Navigation_Title_TV"
-            android:text="@string/lesson57_parcel_title" />
+            android:text="@string/lesson66_tab_activity_title" />
 
         <View style="@style/One_Row_Strut"/>
 
@@ -28,9 +28,22 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin">
 
-        <TextView
-            style="@style/MW"
-            android:text="@string/all_data_in_logs_text"/>
+        <TabHost
+            android:id="@android:id/tabhost"
+            style="@style/MM">
+
+            <LinearLayout style="@style/MMV">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    style="@style/MW" />
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    style="@style/MM" />
+
+            </LinearLayout>
+
+        </TabHost>
 
     </LinearLayout>
 

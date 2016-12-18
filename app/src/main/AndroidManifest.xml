@@ -3,6 +3,7 @@
     package="com.example.os1.start_android_education">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -324,6 +325,27 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name=".Lesson63_PreferencesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson64_Files"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson65_Tab"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson66_TabIntent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson66_Activity1"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson66_Activity2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson67_TabContentFactory"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson68_XmlPullParser"
             android:screenOrientation="portrait"/>
 
     </application>

@@ -166,6 +166,16 @@ public class Main_Activity extends Activity {
                      break;
             case 62: intent = new Intent(Main_Activity.this,Lesson63_PreferencesCode.class);
                      break;
+            case 63: intent = new Intent(Main_Activity.this,Lesson64_Files.class);
+                     break;
+            case 64: intent = new Intent(Main_Activity.this,Lesson65_Tab.class);
+                     break;
+            case 65: intent = new Intent(Main_Activity.this,Lesson66_TabIntent.class);
+                     break;
+            case 66: intent = new Intent(Main_Activity.this,Lesson67_TabContentFactory.class);
+                     break;
+            case 67: intent = new Intent(Main_Activity.this,Lesson68_XmlPullParser.class);
+                     break;
         }
 
         if(intent != null)
