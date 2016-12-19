@@ -347,6 +347,12 @@
         <activity
             android:name=".Lesson68_XmlPullParser"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson69_Handler"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson70_HandlerSimpleMessage"
+            android:screenOrientation="portrait"/>
 
     </application>
 

@@ -176,6 +176,10 @@ public class Main_Activity extends Activity {
                      break;
             case 67: intent = new Intent(Main_Activity.this,Lesson68_XmlPullParser.class);
                      break;
+            case 68: intent = new Intent(Main_Activity.this,Lesson69_Handler.class);
+                     break;
+            case 69: intent = new Intent(Main_Activity.this,Lesson70_HandlerSimpleMessage.class);
+                     break;
         }
 
         if(intent != null)
