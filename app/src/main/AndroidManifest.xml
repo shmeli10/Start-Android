@@ -353,6 +353,18 @@
         <activity
             android:name=".Lesson70_HandlerSimpleMessage"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson71_HandlerAdvMessage"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson72_HandlerMessageManage"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson73_HandlerRunnable"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson74_RunnableUIThread"
+            android:screenOrientation="portrait"/>
 
     </application>
 

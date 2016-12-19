@@ -180,6 +180,14 @@ public class Main_Activity extends Activity {
                      break;
             case 69: intent = new Intent(Main_Activity.this,Lesson70_HandlerSimpleMessage.class);
                      break;
+            case 70: intent = new Intent(Main_Activity.this,Lesson71_HandlerAdvMessage.class);
+                     break;
+            case 71: intent = new Intent(Main_Activity.this,Lesson72_HandlerMessageManage.class);
+                     break;
+            case 72: intent = new Intent(Main_Activity.this,Lesson73_HandlerRunnable.class);
+                     break;
+            case 73: intent = new Intent(Main_Activity.this,Lesson74_RunnableUIThread.class);
+                     break;
         }
 
         if(intent != null)

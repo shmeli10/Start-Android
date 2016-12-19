@@ -75,6 +75,10 @@
         <item>Пример 68. XmlPullParser. Парсим XML.</item>
         <item>Пример 69. Handler. Немного теории. Наглядный пример использования.</item>
         <item>Пример 70. Handler. Посылаем простое сообщение.</item>
+        <item>Пример 71. Handler. Пример с более содержательными сообщениями.</item>
+        <item>Пример 72. Handler. Отложенные сообщения, удаление из очереди, Handler.Callback.</item>
+        <item>Пример 73. Handler. Обработка Runnable.</item>
+        <item>Пример 74. Еще несколько способов выполнения кода в UI-потоке.</item>
     </string-array>
 
     <string-array name="names">
@@ -413,5 +417,14 @@
     <string name="lesson69_handler_title">Handler. Немного теории. Наглядный пример использования</string>
 
     <string name="lesson70_handler_title">Handler. Посылаем простое сообщение</string>
+
+    <string name="lesson71_handler_title">Handler. Пример с более содержательными сообщениями</string>
+
+    <string name="lesson72_handler_title">Handler. Отложенные сообщения, удаление из очереди, Handler.Callback</string>
+
+    <string name="lesson73_handler_title">Handler. Обработка Runnable</string>
+    <string name="lesson73_info_text">Подробно</string>
+
+    <string name="lesson74_ui_thread_title">Еще несколько способов выполнения кода в UI-потоке</string>
 
 </resources>
