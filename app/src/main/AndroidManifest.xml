@@ -374,6 +374,14 @@
         <activity
             android:name=".Lesson77_AsyncTaskResult"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson78_AsyncTaskCancel"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson79_AsyncTaskStatus"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson80_AsyncTaskRotate"/>
 
     </application>
 

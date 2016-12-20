@@ -82,6 +82,9 @@
         <item>Пример 75. AsyncTask. Знакомство, несложный пример.</item>
         <item>Пример 76. AsyncTask. Параметры. Промежуточные результаты.</item>
         <item>Пример 77. AsyncTask. Итоговый результат. Метод get.</item>
+        <item>Пример 78. AsyncTask. Cancel – отменяем задачу в процессе выполнения.</item>
+        <item>Пример 79. AsyncTask. Status – статусы задачи.</item>
+        <item>Пример 80. AsyncTask. Поворот экрана.</item>
     </string-array>
 
     <string-array name="names">
@@ -146,7 +149,7 @@
     <string name="no_text">Нет</string>
 
     <string name="exit_text">Выход</string>
-    <string name="cancel_text">Отмена</string>
+    <string name="cancel_text_ru">Отмена</string>
     <string name="submit_text">Submit</string>
 
     <string name="text_view_text">TextView</string>
@@ -212,8 +215,11 @@
 
     <string name="start_text">Start</string>
     <string name="test_text">Test</string>
+    <string name="cancel_text">Cancel</string>
 
     <string name="connect_text">Connect</string>
+
+    <string name="status_text">Status</string>
 
     <string name="not_connected_text">Not connected</string>
     <string name="connecting_text">Connecting</string>
@@ -439,5 +445,11 @@
     <string name="lesson76_async_task_title">AsyncTask. Параметры. Промежуточные результаты</string>
 
     <string name="lesson77_async_task_title">AsyncTask. Итоговый результат. Метод get</string>
+
+    <string name="lesson78_async_task_title">AsyncTask. Cancel – отменяем задачу в процессе выполнения</string>
+
+    <string name="lesson79_async_task_title">AsyncTask. Status – статусы задачи</string>
+
+    <string name="lesson80_async_task_title">AsyncTask. Поворот экрана</string>
 
 </resources>
