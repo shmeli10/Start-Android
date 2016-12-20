@@ -188,6 +188,12 @@ public class Main_Activity extends Activity {
                      break;
             case 73: intent = new Intent(Main_Activity.this,Lesson74_RunnableUIThread.class);
                      break;
+            case 74: intent = new Intent(Main_Activity.this,Lesson75_AsyncTask.class);
+                     break;
+            case 75: intent = new Intent(Main_Activity.this,Lesson76_AsyncTaskParams.class);
+                     break;
+            case 76: intent = new Intent(Main_Activity.this,Lesson77_AsyncTaskResult.class);
+                     break;
         }
 
         if(intent != null)

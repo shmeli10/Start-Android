@@ -365,6 +365,15 @@
         <activity
             android:name=".Lesson74_RunnableUIThread"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson75_AsyncTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson76_AsyncTaskParams"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson77_AsyncTaskResult"
+            android:screenOrientation="portrait"/>
 
     </application>
 

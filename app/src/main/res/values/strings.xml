@@ -79,6 +79,9 @@
         <item>Пример 72. Handler. Отложенные сообщения, удаление из очереди, Handler.Callback.</item>
         <item>Пример 73. Handler. Обработка Runnable.</item>
         <item>Пример 74. Еще несколько способов выполнения кода в UI-потоке.</item>
+        <item>Пример 75. AsyncTask. Знакомство, несложный пример.</item>
+        <item>Пример 76. AsyncTask. Параметры. Промежуточные результаты.</item>
+        <item>Пример 77. AsyncTask. Итоговый результат. Метод get.</item>
     </string-array>
 
     <string-array name="names">
@@ -173,6 +176,10 @@
     <string name="dialog_text">Диалог</string>
 
     <string name="send_text">Send</string>
+
+    <string name="end_text">End</string>
+
+    <string name="result_text">Result</string>
 
     <string name="notifications_text">Notifications</string>
 
@@ -426,5 +433,11 @@
     <string name="lesson73_info_text">Подробно</string>
 
     <string name="lesson74_ui_thread_title">Еще несколько способов выполнения кода в UI-потоке</string>
+
+    <string name="lesson75_async_task_title">AsyncTask. Знакомство, несложный пример</string>
+
+    <string name="lesson76_async_task_title">AsyncTask. Параметры. Промежуточные результаты</string>
+
+    <string name="lesson77_async_task_title">AsyncTask. Итоговый результат. Метод get</string>
 
 </resources>
