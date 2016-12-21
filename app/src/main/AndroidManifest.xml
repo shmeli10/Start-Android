@@ -382,6 +382,19 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name=".Lesson80_AsyncTaskRotate"/>
+        <activity
+            android:name=".Lesson81_ServiceSimple"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name=".Lesson81_MyService" />
+        <activity
+            android:name=".Lesson82_ServiceStop"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name=".Lesson82_MyService" />
+        <activity
+            android:name=".Lesson83_ServiceKillClient"
+            android:screenOrientation="portrait"/>
 
     </application>
 

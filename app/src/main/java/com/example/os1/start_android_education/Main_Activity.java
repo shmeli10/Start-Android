@@ -200,6 +200,12 @@ public class Main_Activity extends Activity {
                      break;
             case 79: intent = new Intent(Main_Activity.this,Lesson80_AsyncTaskRotate.class);
                      break;
+            case 80: intent = new Intent(Main_Activity.this,Lesson81_ServiceSimple.class);
+                     break;
+            case 81: intent = new Intent(Main_Activity.this,Lesson82_ServiceStop.class);
+                     break;
+            case 82: intent = new Intent(Main_Activity.this,Lesson83_ServiceKillClient.class);
+                     break;
         }
 
         if(intent != null)
