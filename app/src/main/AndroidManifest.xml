@@ -395,6 +395,11 @@
         <activity
             android:name=".Lesson83_ServiceKillClient"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson84_ServiceBackPendingIntent"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name=".Lesson84_MyService" />
 
     </application>
 

@@ -206,6 +206,8 @@ public class Main_Activity extends Activity {
                      break;
             case 82: intent = new Intent(Main_Activity.this,Lesson83_ServiceKillClient.class);
                      break;
+            case 83: intent = new Intent(Main_Activity.this,Lesson84_ServiceBackPendingIntent.class);
+                     break;
         }
 
         if(intent != null)
