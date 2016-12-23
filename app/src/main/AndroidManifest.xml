@@ -400,6 +400,23 @@
             android:screenOrientation="portrait"/>
         <service
             android:name=".Lesson84_MyService" />
+        <activity
+            android:name=".Lesson85_ServiceBackBroadcast"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name=".Lesson85_MyService" />
+        <activity
+            android:name=".Lesson86_ServiceBindClient"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name=".Lesson86_MyService">
+
+            <intent-filter>
+
+                <action android:name="com.example.os1.start_android_education.Lesson86_MyService"/>
+            </intent-filter>
+
+        </service>
 
     </application>
 
