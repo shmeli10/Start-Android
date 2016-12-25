@@ -212,6 +212,10 @@ public class Main_Activity extends Activity {
                      break;
             case 85: intent = new Intent(Main_Activity.this,Lesson86_ServiceBindClient.class);
                      break;
+            case 86: intent = new Intent(Main_Activity.this,Lesson87_ServiceBindingLocal.class);
+                     break;
+            case 87: intent = new Intent(Main_Activity.this,Lesson88_ServiceNotification.class);
+                     break;
         }
 
         if(intent != null)

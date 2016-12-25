@@ -91,6 +91,8 @@
         <item>Пример 84. Service. Обратная связь с помощью PendingIntent.</item>
         <item>Пример 85. Service. Обратная связь с помощью BroadcastReceiver.</item>
         <item>Пример 86. Service. Биндинг. ServiceConnection.</item>
+        <item>Пример 87. Service. Локальный биндинг.</item>
+        <item>Пример 88. Service. Уведомления - notifications.</item>
     </string-array>
 
     <string-array name="names">
@@ -169,10 +171,15 @@
     <string name="add_text">Add</string>
     <string name="read_text">Read</string>
 
+    <string name="up_text">Up</string>
+    <string name="down_text">Down</string>
+
     <string name="save_text">Save</string>
     <string name="update_text">Update</string>
     <string name="delete_text">Delete</string>
     <string name="load_text">Load</string>
+
+    <string name="send_text">Send</string>
 
     <string name="add_text_ru">Добавить</string>
     <string name="delete_text_ru">Удалить</string>
@@ -180,11 +187,20 @@
     <string name="create_text">Create</string>
     <string name="clear_text">Clear</string>
 
+    <string name="connect_text">Connect</string>
+
+    <string name="start_text">Start</string>
+    <string name="stop_text">Stop</string>
+
+    <string name="bind_text">Bind</string>
+    <string name="unbind_text">Unbind</string>
+
+    <string name="start_service_text">Start service</string>
+    <string name="stop_service_text">Stop service</string>
+
     <string name="current_time_text">Текущее время</string>
 
     <string name="dialog_text">Диалог</string>
-
-    <string name="send_text">Send</string>
 
     <string name="end_text">End</string>
 
@@ -219,25 +235,14 @@
     <string name="activity1_text">Activity 1</string>
     <string name="activity2_text">Activity 2</string>
 
-    <string name="start_text">Start</string>
-    <string name="stop_text">Stop</string>
-
-    <string name="bind_text">Bind</string>
-    <string name="unbind_text">Unbind</string>
-
     <string name="test_text">Test</string>
     <string name="cancel_text">Cancel</string>
-
-    <string name="connect_text">Connect</string>
 
     <string name="status_text">Status</string>
 
     <string name="not_connected_text">Not connected</string>
     <string name="connecting_text">Connecting</string>
     <string name="connected_text">Connected</string>
-
-    <string name="start_service_text">Start service</string>
-    <string name="stop_service_text">Stop service</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -477,5 +482,9 @@
     <string name="lesson85_service_title">Service. Обратная связь с помощью BroadcastReceiver</string>
 
     <string name="lesson86_service_title">Service. Биндинг. ServiceConnection</string>
+
+    <string name="lesson87_service_title">Service. Локальный биндинг</string>
+
+    <string name="lesson88_service_title">Service. Уведомления - notifications</string>
 
 </resources>
