@@ -93,6 +93,7 @@
         <item>Пример 86. Service. Биндинг. ServiceConnection.</item>
         <item>Пример 87. Service. Локальный биндинг.</item>
         <item>Пример 88. Service. Уведомления - notifications.</item>
+        <item>Пример 125. Google maps. Создание и настройка проекта. Карта, камера, события.</item>
     </string-array>
 
     <string-array name="names">
@@ -486,5 +487,7 @@
     <string name="lesson87_service_title">Service. Локальный биндинг</string>
 
     <string name="lesson88_service_title">Service. Уведомления - notifications</string>
+
+    <string name="lesson125_google_map_title">Google maps. Создание и настройка проекта. Карта, камера, события</string>
 
 </resources>
