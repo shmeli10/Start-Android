@@ -94,6 +94,7 @@
         <item>Пример 87. Service. Локальный биндинг.</item>
         <item>Пример 88. Service. Уведомления - notifications.</item>
         <item>Пример 89. Создаем свой ContentProvider.</item>
+        <item>Пример 90. Touch – обработка касания.</item>
         <item>Пример 125. Google maps. Создание и настройка проекта. Карта, камера, события.</item>
     </string-array>
 
@@ -493,6 +494,9 @@
     <string name="lesson88_service_title">Service. Уведомления - notifications</string>
 
     <string name="lesson89_content_provider_title">Создаем свой ContentProvider</string>
+
+    <string name="lesson90_touch_event_title">Touch – обработка касания</string>
+    <string name="lesson90_make_a_touch_text">Коснитесь поля и подвигайте по нему пальцем...</string>
 
     <string name="lesson125_google_map_title">Google maps. Создание и настройка проекта. Карта, камера, события</string>
 
