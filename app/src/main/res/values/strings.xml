@@ -93,6 +93,7 @@
         <item>Пример 86. Service. Биндинг. ServiceConnection.</item>
         <item>Пример 87. Service. Локальный биндинг.</item>
         <item>Пример 88. Service. Уведомления - notifications.</item>
+        <item>Пример 89. Создаем свой ContentProvider.</item>
         <item>Пример 125. Google maps. Создание и настройка проекта. Карта, камера, события.</item>
     </string-array>
 
@@ -179,6 +180,7 @@
     <string name="update_text">Update</string>
     <string name="delete_text">Delete</string>
     <string name="load_text">Load</string>
+    <string name="insert_text">Insert</string>
 
     <string name="send_text">Send</string>
 
@@ -195,6 +197,8 @@
 
     <string name="bind_text">Bind</string>
     <string name="unbind_text">Unbind</string>
+
+    <string name="error_text">Error</string>
 
     <string name="start_service_text">Start service</string>
     <string name="stop_service_text">Stop service</string>
@@ -487,6 +491,8 @@
     <string name="lesson87_service_title">Service. Локальный биндинг</string>
 
     <string name="lesson88_service_title">Service. Уведомления - notifications</string>
+
+    <string name="lesson89_content_provider_title">Создаем свой ContentProvider</string>
 
     <string name="lesson125_google_map_title">Google maps. Создание и настройка проекта. Карта, камера, события</string>
 

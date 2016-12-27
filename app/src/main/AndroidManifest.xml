@@ -17,6 +17,9 @@
         android:required="true">
     </uses-feature>
 
+    <uses-permission android:name="com.example.os1.mycontentprovider.READ_DATABASE" />
+    <uses-permission android:name="com.example.os1.mycontentprovider.WRITE_DATABASE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/app_logo"
@@ -450,7 +453,8 @@
         <service
             android:name=".Lesson88_MyService"
             android:process=":myservice"/>
-
+        <activity
+            android:name=".Lesson89_ContentProviderClient" />
 
         <activity
             android:name=".Lesson125_GoogleMaps" />
