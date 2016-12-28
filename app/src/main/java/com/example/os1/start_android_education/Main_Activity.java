@@ -224,7 +224,9 @@ public class Main_Activity extends Activity {
                      break;
             case 91: intent = new Intent(Main_Activity.this,Lesson92_FragmentLifecycle.class);
                      break;
-            case 92: intent = new Intent(Main_Activity.this,Lesson125_GoogleMaps.class);
+            case 92: intent = new Intent(Main_Activity.this,Lesson93_FragmentDynamic.class);
+                     break;
+            case 93: intent = new Intent(Main_Activity.this,Lesson125_GoogleMaps.class);
                      break;
         }
 

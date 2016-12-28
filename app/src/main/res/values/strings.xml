@@ -97,6 +97,7 @@
         <item>Пример 90. Touch – обработка касания.</item>
         <item>Пример 91. MultiTouch – обработка множественных касаний.</item>
         <item>Пример 92. Android 3. Fragments. Lifecycle.</item>
+        <item>Пример 93. Android 3. Fragments. Динамическая работа.</item>
         <item>Пример 125. Google maps. Создание и настройка проекта. Карта, камера, события.</item>
     </string-array>
 
@@ -175,6 +176,11 @@
 
     <string name="add_text">Add</string>
     <string name="read_text">Read</string>
+
+    <string name="remove_text">Remove</string>
+    <string name="replace_text">Replace</string>
+
+    <string name="add_to_back_stack_text">add to Back Stack</string>
 
     <string name="up_text">Up</string>
     <string name="down_text">Down</string>
@@ -506,6 +512,8 @@
     <string name="lesson91_multitouch_title">MultiTouch – обработка множественных касаний</string>
 
     <string name="lesson92_fragments_title">Android 3. Fragments. Lifecycle</string>
+
+    <string name="lesson93_fragments_title">Android 3. Fragments. Динамическая работа</string>
 
     <string name="lesson125_google_map_title">Google maps. Создание и настройка проекта. Карта, камера, события</string>
 

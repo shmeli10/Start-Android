@@ -463,7 +463,9 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name=".Lesson92_FragmentLifecycle"/>
-
+        <activity
+            android:name=".Lesson93_FragmentDynamic"
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".Lesson125_GoogleMaps" />
