@@ -455,12 +455,18 @@
             android:process=":myservice"/>
         <activity
             android:name=".Lesson89_ContentProviderClient" />
-
-        <activity
-            android:name=".Lesson125_GoogleMaps" />
         <activity
             android:name=".Lesson90_Touch"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson91_MultiTouch"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson92_FragmentLifecycle"/>
+
+
+        <activity
+            android:name=".Lesson125_GoogleMaps" />
 
     </application>
 

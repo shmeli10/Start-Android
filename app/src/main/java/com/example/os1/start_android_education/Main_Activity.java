@@ -220,7 +220,11 @@ public class Main_Activity extends Activity {
                      break;
             case 89: intent = new Intent(Main_Activity.this,Lesson90_Touch.class);
                      break;
-            case 90: intent = new Intent(Main_Activity.this,Lesson125_GoogleMaps.class);
+            case 90: intent = new Intent(Main_Activity.this,Lesson91_MultiTouch.class);
+                     break;
+            case 91: intent = new Intent(Main_Activity.this,Lesson92_FragmentLifecycle.class);
+                     break;
+            case 92: intent = new Intent(Main_Activity.this,Lesson125_GoogleMaps.class);
                      break;
         }
 

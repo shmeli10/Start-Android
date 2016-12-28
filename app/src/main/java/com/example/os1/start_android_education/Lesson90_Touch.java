@@ -16,7 +16,7 @@ import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
 /**
- * Created by OS1 on 25.12.2016.
+ * Created by OS1 on 27.12.2016.
  */
 public class Lesson90_Touch extends     Activity
                             implements  View.OnClickListener,
