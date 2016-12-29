@@ -466,6 +466,9 @@
         <activity
             android:name=".Lesson93_FragmentDynamic"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson94_FragmentActivity"
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".Lesson125_GoogleMaps" />
