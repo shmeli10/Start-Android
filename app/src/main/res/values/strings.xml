@@ -99,6 +99,8 @@
         <item>Пример 92. Android 3. Fragments. Lifecycle.</item>
         <item>Пример 93. Android 3. Fragments. Динамическая работа.</item>
         <item>Пример 94. Android 3. Fragments. Взаимодействие с Activity.</item>
+        <item>Пример 95. Android 3. ActionBar. Размещение элементов.</item>
+        <item>Пример 96. Android 3. ActionBar. Навигация - табы и выпадающий список.</item>
         <item>Пример 125. Google maps. Создание и настройка проекта. Карта, камера, события.</item>
     </string-array>
 
@@ -239,6 +241,11 @@
     <string name="checkbox4_text">CheckBox 4</string>
     <string name="checkbox5_text">CheckBox 5</string>
     <string name="checkbox6_text">CheckBox 6</string>
+
+    <string name="item1_text">Item1</string>
+    <string name="item2_text">Item2</string>
+    <string name="item3_text">Item3</string>
+    <string name="item4_text">Item4</string>
 
     <string name="write_file_text">Записать файл</string>
     <string name="read_file_text">Прочесть файл</string>
@@ -520,6 +527,10 @@
     <string name="lesson93_fragments_title">Android 3. Fragments. Динамическая работа</string>
 
     <string name="lesson94_fragments_title">Android 3. Fragments. Взаимодействие с Activity</string>
+
+    <string name="lesson95_action_bar_title">Android 3. ActionBar. Размещение элементов</string>
+
+    <string name="lesson96_action_bar_title">Android 3. ActionBar. Навигация - табы и выпадающий список</string>
 
     <string name="lesson125_google_map_title">Google maps. Создание и настройка проекта. Карта, камера, события</string>
 

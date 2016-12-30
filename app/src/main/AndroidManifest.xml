@@ -469,6 +469,14 @@
         <activity
             android:name=".Lesson94_FragmentActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson95_ActionBarItems"
+            android:theme="@style/ActionBarTheme"
+            android:logo="@android:drawable/ic_menu_view"/>
+        <activity
+            android:name=".Lesson96_ActionBarNavigation"
+            android:theme="@style/ActionBatThemeLight"
+            android:uiOptions="splitActionBarWhenNarrow" />
 
         <activity
             android:name=".Lesson125_GoogleMaps" />
