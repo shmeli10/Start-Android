@@ -477,6 +477,12 @@
             android:name=".Lesson96_ActionBarNavigation"
             android:theme="@style/ActionBatThemeLight"
             android:uiOptions="splitActionBarWhenNarrow" />
+        <activity
+            android:name=".Lesson97_ListFragment"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson98_DialogFragment"
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".Lesson125_GoogleMaps" />

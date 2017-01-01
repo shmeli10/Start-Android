@@ -101,6 +101,8 @@
         <item>Пример 94. Android 3. Fragments. Взаимодействие с Activity.</item>
         <item>Пример 95. Android 3. ActionBar. Размещение элементов.</item>
         <item>Пример 96. Android 3. ActionBar. Навигация - табы и выпадающий список.</item>
+        <item>Пример 97. Android 3. Fragments. ListFragment - список.</item>
+        <item>Пример 98. Android 3. Fragments. DialogFragment - диалог.</item>
         <item>Пример 125. Google maps. Создание и настройка проекта. Карта, камера, события.</item>
     </string-array>
 
@@ -265,6 +267,14 @@
 
     <string name="test_text">Test</string>
     <string name="cancel_text">Cancel</string>
+
+    <string name="list_of_numbers_text">Список чисел</string>
+    <string name="no_data_text">Нет данных</string>
+
+    <string name="dialog1_text">Dialog 1</string>
+    <string name="dialog2_text">Dialog 2</string>
+    <string name="message_text">Text of your message</string>
+    <string name="maybe_text">Maybe</string>
 
     <string name="status_text">Status</string>
 
@@ -531,6 +541,10 @@
     <string name="lesson95_action_bar_title">Android 3. ActionBar. Размещение элементов</string>
 
     <string name="lesson96_action_bar_title">Android 3. ActionBar. Навигация - табы и выпадающий список</string>
+
+    <string name="lesson97_fragments_title">Android 3. Fragments. ListFragment - список</string>
+
+    <string name="lesson98_fragments_title">Android 3. Fragments. DialogFragment - диалог</string>
 
     <string name="lesson125_google_map_title">Google maps. Создание и настройка проекта. Карта, камера, события</string>
 
