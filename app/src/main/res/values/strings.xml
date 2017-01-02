@@ -103,6 +103,11 @@
         <item>Пример 96. Android 3. ActionBar. Навигация - табы и выпадающий список.</item>
         <item>Пример 97. Android 3. Fragments. ListFragment - список.</item>
         <item>Пример 98. Android 3. Fragments. DialogFragment - диалог.</item>
+        <item>Пример 99. Android 3. Fragments. PreferenceFragment - настройки. Headers.</item>
+        <item>Пример 100. Android 3. ActionBar. Динамическое размещение элементов.</item>
+        <item>Пример 101. Android 3. ActionMode, как альтернатива контекстному меню.</item>
+        <item>Пример 102. Android 3. Библиотека Support Library. Зачем нужна и как ее использовать на примере фрагментов.</item>
+        <item>Пример 103. Одно приложение на разных экранах.</item>
         <item>Пример 125. Google maps. Создание и настройка проекта. Карта, камера, события.</item>
     </string-array>
 
@@ -132,6 +137,20 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+    </string-array>
+
+    <string-array name="headers">
+        <item>Header 1</item>
+        <item>Header 2</item>
+        <item>Header 3</item>
+        <item>Header 4</item>
+    </string-array>
+
+    <string-array name="content">
+        <item>Content 1</item>
+        <item>Content 2</item>
+        <item>Content 3</item>
+        <item>Content 4</item>
     </string-array>
 
     <string name="main_activity_text">MainActivity</string>
@@ -203,6 +222,10 @@
 
     <string name="add_text_ru">Добавить</string>
     <string name="delete_text_ru">Удалить</string>
+
+    <string name="add_delete_ru_text">Добавить/удалить</string>
+    <string name="show_hide_ru_text">Показать/скрыть</string>
+    <string name="fragment_ru_text">Фрагмент</string>
 
     <string name="create_text">Create</string>
     <string name="clear_text">Clear</string>
@@ -357,6 +380,8 @@
     <string name="all_data_in_logs_text">Все данные выводятся в лог</string>
 
     <string name="count_text">Count</string>
+
+    <string name="action_mode_text">Action Mode</string>
 
     <string name="lesson27_sqlite_query_title">SQLite. Подробнее про метод query...</string>
     <string name="lesson27_countries_catalog_text">Справочник стран</string>
@@ -546,6 +571,43 @@
 
     <string name="lesson98_fragments_title">Android 3. Fragments. DialogFragment - диалог</string>
 
+    <string name="lesson99_fragments_title">Android 3. Fragments. PreferenceFragment - настройки. Headers</string>
+    <string name="lesson99_list1_text">List 1</string>
+    <string name="lesson99_list2_text">List 2</string>
+    <string name="lesson99_screen1_text">Screen 1</string>
+    <string name="lesson99_screen2_text">Screen 2</string>
+    <string name="lesson99_header1_text">Header 1</string>
+    <string name="lesson99_header2_text">Header 2</string>
+    <string name="lesson99_header3_text">Header 3</string>
+    <string name="lesson99_checkbox1_text">CheckBox 1</string>
+    <string name="lesson99_edittext1_text">EditText 1</string>
+    <string name="lesson99_category1_text">Category 1</string>
+    <string name="lesson99_category2_text">Category 2</string>
+    <string name="lesson99_checkbox2_text">CheckBox 2</string>
+    <string name="lesson99_edittext2_text">EditText 2</string>
+    <string name="lesson99_list1_summary_text">Summary of List 1</string>
+    <string name="lesson99_list2_summary_text">Summary of List 2</string>
+    <string name="lesson99_screen1_summary_text">Summary of Screen 1</string>
+    <string name="lesson99_screen2_summary_text">Summary of Screen 2</string>
+    <string name="lesson99_header1_summary_text">Summary of Header 1</string>
+    <string name="lesson99_header2_summary_text">Summary of Header 2</string>
+    <string name="lesson99_header3_summary_text">Summary of Header 3</string>
+    <string name="lesson99_checkbox1_summary_text">Summary of CheckBox 1</string>
+    <string name="lesson99_edittext1_summary_text">Summary of EditText 1</string>
+    <string name="lesson99_checkbox2_summary_text">Summary of CheckBox 2</string>
+    <string name="lesson99_edittext2_summary_text">Summary of EditText 2</string>
+
+    <string name="lesson100_actionbar_title">Android 3. ActionBar. Динамическое размещение элементов</string>
+    <string name="lesson100_item31_text">Item 31</string>
+    <string name="lesson100_item32_text">Item 32</string>
+
+    <string name="lesson101_action_mode_title">Android 3. ActionMode, как альтернатива контекстному меню</string>
+
+    <string name="lesson102_support_library_title">Android 3. Библиотека Support Library. Зачем нужна и как ее использовать на примере фрагментов</string>
+
+    <string name="lesson103_multiple_screen_title">Одно приложение на разных экранах</string>
+
     <string name="lesson125_google_map_title">Google maps. Создание и настройка проекта. Карта, камера, события</string>
+
 
 </resources>

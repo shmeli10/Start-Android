@@ -236,8 +236,18 @@ public class Main_Activity extends Activity {
                      break;
             case 97: intent = new Intent(Main_Activity.this,Lesson98_DialogFragment.class);
                      break;
-            case 98: intent = new Intent(Main_Activity.this,Lesson125_GoogleMaps.class);
+            case 98: intent = new Intent(Main_Activity.this,Lesson99_PreferenceFragment.class);
                      break;
+            case 99: intent = new Intent(Main_Activity.this,Lesson100_DynamicActionBar.class);
+                     break;
+            case 100: intent = new Intent(Main_Activity.this,Lesson101_ActionMode.class);
+                      break;
+            case 101: intent = new Intent(Main_Activity.this,Lesson102_SupportLibrary.class);
+                      break;
+            case 102: intent = new Intent(Main_Activity.this,Lesson103_MultipleScreen.class);
+                      break;
+            case 103: intent = new Intent(Main_Activity.this,Lesson125_GoogleMaps.class);
+                      break;
         }
 
         if(intent != null)

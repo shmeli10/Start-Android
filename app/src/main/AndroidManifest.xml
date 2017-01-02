@@ -483,6 +483,21 @@
         <activity
             android:name=".Lesson98_DialogFragment"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson99_PreferenceFragment" />
+        <activity
+            android:name=".Lesson100_DynamicActionBar"
+            android:theme="@style/ActionBarTheme" />
+        <activity
+            android:name=".Lesson101_ActionMode"/>
+        <activity
+            android:name=".Lesson102_SupportLibrary"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Lesson103_MultipleScreen"/>
+        <activity
+            android:name=".Lesson103_DetailsActivity"/>
+
 
         <activity
             android:name=".Lesson125_GoogleMaps" />
