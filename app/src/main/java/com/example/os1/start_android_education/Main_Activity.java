@@ -246,7 +246,9 @@ public class Main_Activity extends Activity {
                       break;
             case 102: intent = new Intent(Main_Activity.this,Lesson103_MultipleScreen.class);
                       break;
-            case 103: intent = new Intent(Main_Activity.this,Lesson125_GoogleMaps.class);
+            case 103: intent = new Intent(Main_Activity.this,Lesson104_Activity_A.class);
+                      break;
+            case 104: intent = new Intent(Main_Activity.this,Lesson125_GoogleMaps.class);
                       break;
         }
 

@@ -108,6 +108,7 @@
         <item>Пример 101. Android 3. ActionMode, как альтернатива контекстному меню.</item>
         <item>Пример 102. Android 3. Библиотека Support Library. Зачем нужна и как ее использовать на примере фрагментов.</item>
         <item>Пример 103. Одно приложение на разных экранах.</item>
+        <item>Пример 104. Поведение Activity в Task. Intent-флаги, launchMode, affinity.</item>
         <item>Пример 125. Google maps. Создание и настройка проекта. Карта, камера, события.</item>
     </string-array>
 
@@ -304,6 +305,8 @@
     <string name="not_connected_text">Not connected</string>
     <string name="connecting_text">Connecting</string>
     <string name="connected_text">Connected</string>
+
+    <string name="info_text">Info</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -606,6 +609,8 @@
     <string name="lesson102_support_library_title">Android 3. Библиотека Support Library. Зачем нужна и как ее использовать на примере фрагментов</string>
 
     <string name="lesson103_multiple_screen_title">Одно приложение на разных экранах</string>
+
+    <string name="lesson104_task_title">Поведение Activity в Task. Intent-флаги, launchMode, affinity</string>
 
     <string name="lesson125_google_map_title">Google maps. Создание и настройка проекта. Карта, камера, события</string>
 
