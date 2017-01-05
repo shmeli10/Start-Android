@@ -109,6 +109,8 @@
         <item>Пример 102. Android 3. Библиотека Support Library. Зачем нужна и как ее использовать на примере фрагментов.</item>
         <item>Пример 103. Одно приложение на разных экранах.</item>
         <item>Пример 104. Поведение Activity в Task. Intent-флаги, launchMode, affinity.</item>
+        <item>Пример 105. Виджеты. Создание. Lifecycle.</item>
+        <item>Пример 106. Виджеты. Конфигурационный экран. Обновление.</item>
         <item>Пример 125. Google maps. Создание и настройка проекта. Карта, камера, события.</item>
     </string-array>
 
@@ -611,6 +613,11 @@
     <string name="lesson103_multiple_screen_title">Одно приложение на разных экранах</string>
 
     <string name="lesson104_task_title">Поведение Activity в Task. Intent-флаги, launchMode, affinity</string>
+
+    <string name="lesson105_widget_name">My first widget</string>
+    <string name="lesson105_widget_text">Text in widget</string>
+
+    <string name="lesson106_widget_name">My second widget</string>
 
     <string name="lesson125_google_map_title">Google maps. Создание и настройка проекта. Карта, камера, события</string>
 

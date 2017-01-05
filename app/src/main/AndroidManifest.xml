@@ -522,7 +522,45 @@
             android:name=".Lesson104_Activity_D"
             android:screenOrientation="portrait"
             android:launchMode="singleTop"/>
+        <receiver
+            android:name=".Lesson105_SimpleWidget"
+            android:icon="@android:drawable/star_big_on"
+            android:label="@string/lesson105_widget_name">
 
+            <intent-filter>
+
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_metadata_lesson105">
+            </meta-data>
+        </receiver>
+        <receiver
+            android:name=".Lesson106_SimpleWidget"
+            android:icon="@android:drawable/star_big_on"
+            android:label="@string/lesson106_widget_name">
+
+            <intent-filter>
+
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_metadata_lesson106">
+            </meta-data>
+        </receiver>
+        <activity android:name=".Lesson106_WidgetConfig">
+
+            <intent-filter>
+
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+
+            </intent-filter>
+
+        </activity>
 
         <activity
             android:name=".Lesson125_GoogleMaps" />
