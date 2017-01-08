@@ -111,6 +111,8 @@
         <item>Пример 104. Поведение Activity в Task. Intent-флаги, launchMode, affinity.</item>
         <item>Пример 105. Виджеты. Создание. Lifecycle.</item>
         <item>Пример 106. Виджеты. Конфигурационный экран. Обновление.</item>
+        <item>Пример 107. PendingIntent – флаги, requestCode. AlarmManager.</item>
+        <item>Пример 108. Виджеты. Обработка нажатий.</item>
         <item>Пример 125. Google maps. Создание и настройка проекта. Карта, камера, события.</item>
     </string-array>
 
@@ -275,6 +277,9 @@
     <string name="item3_text">Item3</string>
     <string name="item4_text">Item4</string>
 
+    <string name="button1_text">Button1</string>
+    <string name="button2_text">Button2</string>
+
     <string name="write_file_text">Записать файл</string>
     <string name="read_file_text">Прочесть файл</string>
     <string name="write_file_sd_text">Записать файл на SD</string>
@@ -309,6 +314,7 @@
     <string name="connected_text">Connected</string>
 
     <string name="info_text">Info</string>
+    <string name="config_text">Config</string>
 
     <string name="screen_orientation_title">Смена ориентации экрана</string>
     <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
@@ -618,6 +624,10 @@
     <string name="lesson105_widget_text">Text in widget</string>
 
     <string name="lesson106_widget_name">My second widget</string>
+
+    <string name="lesson107_pending_intent_title">PendingIntent – флаги, requestCode. AlarmManager.</string>
+
+    <string name="lesson108_widget_title">Виджеты. Обработка нажатий.</string>
 
     <string name="lesson125_google_map_title">Google maps. Создание и настройка проекта. Карта, камера, события</string>
 

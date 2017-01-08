@@ -561,6 +561,33 @@
             </intent-filter>
 
         </activity>
+        <activity
+            android:name=".Lesson107_PendingIntent"
+            android:screenOrientation="portrait"/>
+        <receiver
+            android:name=".Lesson107_Receiver" />
+        <receiver
+            android:name=".Lesson108_MyWidget">
+
+            <intent-filter>
+
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_metadata_lesson108">
+            </meta-data>
+
+        </receiver>
+        <activity
+            android:name=".Lesson108_WidgetConfig">
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+
+        </activity>
 
         <activity
             android:name=".Lesson125_GoogleMaps" />
