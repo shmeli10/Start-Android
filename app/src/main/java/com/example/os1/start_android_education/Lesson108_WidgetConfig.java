@@ -82,7 +82,8 @@ public class Lesson108_WidgetConfig extends     Activity
                 break;
             case R.id.Lesson108_Ok_Btn:
                 sp.edit().putString(WIDGET_TIME_FORMAT + widgetID, etFormat.getText().toString()).commit();
-                Lesson108_MyWidget.updateWidget(this, AppWidgetManager.getInstance(this), widgetID);
+                // Lesson108_MyWidget.updateWidget(this, AppWidgetManager.getInstance(this), widgetID);
+                Lesson108_MyWidget.updateWidget(this, AppWidgetManager.getInstance(this), widgetID, false);
                 setResult(RESULT_OK, resultValue);
 
                 finish();

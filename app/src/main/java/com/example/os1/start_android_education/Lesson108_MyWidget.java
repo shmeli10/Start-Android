@@ -6,6 +6,7 @@ import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.RemoteViews;
 
@@ -24,7 +25,8 @@ public class Lesson108_MyWidget extends AppWidgetProvider {
 
         // обновляем все экземпляры
         for (int i : appWidgetIds) {
-            updateWidget(context, appWidgetManager, i);
+            // updateWidget(context, appWidgetManager, i);
+            updateWidget(context, appWidgetManager, i, false);
         }
     }
 
@@ -42,7 +44,8 @@ public class Lesson108_MyWidget extends AppWidgetProvider {
         editor.commit();
     }
 
-    static void updateWidget(Context ctx, AppWidgetManager appWidgetManager, int widgetID) {
+    // static void updateWidget(Context ctx, AppWidgetManager appWidgetManager, int widgetID) {
+    static void updateWidget(Context ctx, AppWidgetManager appWidgetManager, int widgetID, boolean changeOnlyCounter) {
         SharedPreferences sp = ctx.getSharedPreferences(Lesson108_WidgetConfig.WIDGET_PREF, Context.MODE_PRIVATE);
 
         // Читаем формат времени и определяем текущее время
@@ -57,7 +60,12 @@ public class Lesson108_MyWidget extends AppWidgetProvider {
 
         // Помещаем данные в текстовые поля
         RemoteViews widgetView = new RemoteViews(ctx.getPackageName(), R.layout.widget_lesson108);
-        widgetView.setTextViewText(R.id.Lesson108_Time_TV, currentTime);
+        // widgetView.setTextViewText(R.id.Lesson108_Time_TV, currentTime);
+
+        // если обновлять надо не только счетчик
+        if(!changeOnlyCounter)
+            widgetView.setTextViewText(R.id.Lesson108_Time_TV, currentTime);
+
         widgetView.setTextViewText(R.id.Lesson108_Count_TV, count);
 
         // Конфигурационный экран (первая зона)
@@ -81,6 +89,10 @@ public class Lesson108_MyWidget extends AppWidgetProvider {
         countIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, widgetID);
         pIntent = PendingIntent.getBroadcast(ctx, widgetID, countIntent, 0);
         widgetView.setOnClickPendingIntent(R.id.Lesson108_PressCount_TV, pIntent);
+
+        Intent showWebIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+        pIntent = PendingIntent.getActivity(ctx, widgetID, showWebIntent, 0);
+        widgetView.setOnClickPendingIntent(R.id.Lesson108_ShowWebPage_TV, pIntent);
 
         // Обновляем виджет
         appWidgetManager.updateAppWidget(widgetID, widgetView);
@@ -111,7 +123,8 @@ public class Lesson108_MyWidget extends AppWidgetProvider {
                 sp.edit().putInt(Lesson108_WidgetConfig.WIDGET_COUNT + mAppWidgetId, ++cnt).commit();
 
                 // Обновляем виджет
-                updateWidget(context, AppWidgetManager.getInstance(context), mAppWidgetId);
+                // updateWidget(context, AppWidgetManager.getInstance(context), mAppWidgetId);
+                updateWidget(context, AppWidgetManager.getInstance(context), mAppWidgetId, true);
             }
         }
     }

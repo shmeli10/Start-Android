@@ -113,6 +113,8 @@
         <item>Пример 106. Виджеты. Конфигурационный экран. Обновление.</item>
         <item>Пример 107. PendingIntent – флаги, requestCode. AlarmManager.</item>
         <item>Пример 108. Виджеты. Обработка нажатий.</item>
+        <item>Пример 109. Виджеты. Список.</item>
+        <item>Пример 110. Виджеты. Превью, изменение размера, экран блокировки, ручное обновление.</item>
         <item>Пример 125. Google maps. Создание и настройка проекта. Карта, камера, события.</item>
     </string-array>
 
@@ -391,6 +393,7 @@
     <string name="all_data_in_logs_text">Все данные выводятся в лог</string>
 
     <string name="count_text">Count</string>
+    <string name="show_web_text">Show Web</string>
 
     <string name="action_mode_text">Action Mode</string>
 
@@ -628,6 +631,10 @@
     <string name="lesson107_pending_intent_title">PendingIntent – флаги, requestCode. AlarmManager.</string>
 
     <string name="lesson108_widget_title">Виджеты. Обработка нажатий.</string>
+
+    <!--<string name="lesson109_widget_title">Виджеты. Список.</string>-->
+
+    <!--<string name="lesson110_widget_title">Виджеты. Превью, изменение размера, экран блокировки, ручное обновление.</string>-->
 
     <string name="lesson125_google_map_title">Google maps. Создание и настройка проекта. Карта, камера, события</string>
 
